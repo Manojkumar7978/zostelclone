@@ -1,0 +1,2110 @@
+{
+    "destination": [
+        {
+            "id": 1,
+            "place": "Alleppay",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/0fW6dUyPQ8mol0GHF841KA/alleppey-20230223105140.png?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/0fW6dUyPQ8mol0GHF841KA/alleppey-20230223105140.png",
+            "about": "Frequent wisps of air soothing your senses, boatmen stories with their generations following the same age-old traditions, and a never-ending scent of local food filling narrow lanes of the city- Alleppey is one hell of an experience. Attractions like the Alappuzha Beach, brilliant orange and pink sunsets, and frequent snake boat races make Alleppey one of the most enthralling water towns in the list of a backpacker.",
+            "love": "A row through the calm canals and quaint paddy fields around the backwaters of Alappuzha take you back in time, as you take in all the green around you.The canal & backwater culture of Alleppey has won it the title of Venice of the East. When explored, these canals open up to tiny villages, with the residents leading simple & truly unique lives in the middle of the water. The popular Snake Boat Races of Alleppey are also the world's largest team sport, with sometimes over 100 participants rowing from a single boat. Can you imagine what a sight that would be?!",
+            "fun": "Known for its stupendous backwaters, Alleppey offers its visitors the surreal experience of staying in a houseboat!Kuttanad, a region in Alleppey, is known to be the lowest village in India. It resides at the height of 1 to 3 meters below sea level! The place often floods during the rainfall, so to adapt to this, the houses here are built to have no ground floors at all!There are entire villages on minuscule islands in the town of Alleppey. The residents use canoes to go from one place to another since there are no roads and only water all around!",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/SAReimRtRpeYxcwZL8vFqw/zostel-alleppey-20221008133041.jpg?w=1280",
+                    "name": "Zostel Alleppey",
+                    "startingprice": 549,
+                    "desc": "Situated right at the scenic Alappuzha Beach, Zostel Alleppey is a happening backpackers' hostel ideal for exploring the town and its backwaters. A white-coloured building surrounded by swaying palm trees invites you to a dreamy beach vacation here. The hostel is equipped with workstations, a colourful common area with indoor games, and a sprawling rooftop with an unobstructed view of the Arabian Sea. Look forward to a tour of backwaters on a houseboat, soothing village walks, and crimson-gold beach sunsets. And when you make your way back to the hostel, a lively evening full of chatter with fellow travellers will await. ",
+                    "experience": "Experience the village life in Kuttanad, watch sunsets, and explore long stretches of sand. Watch locals practicing for snake boat race, go on a boat ride on backwaters, and chill by the campfire.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/SAReimRtRpeYxcwZL8vFqw/zostel-alleppey-20221008133041.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/LEZzomqOSqaKSwTTUro54Q/zostel-alleppey-20221008133126.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/-OhlwQpASWyOJKx9n-xQLg/zostel-alleppey-20221008133231.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/f9bh_GPsT3227QcnwBXsOQ/zostel-alleppey-20221008135621.jpg?w=1280"
+                    ],
+                    "address": "Beach Road, Near Vijay Beach Park, Sea View Ward, Padinjare Kurisadi, Kanjiramchira, Alappuzha, Kerala",
+                    "contact": "0440114576",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 549,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "place": "Aurangabad",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/JvRwM3NRTYSzsz5R1Y1eKg/aurangabad-20230223105304.png?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/JvRwM3NRTYSzsz5R1Y1eKg/aurangabad-20230223105304.png",
+            "about": "The old forts, age-old eateries, and museums narrate their own tales. The distinctive scent of naan qualia tingles both your nose and taste buds. And with gorgeous sunsets over the sky like a giant painting, Aurangabad breaks all stereotypes one wonder at a time. Welcome to a city with rich heritage, stupendous monuments, and world-famous caves.",
+            "love": "A renowned UNESCO world heritage site, the Ellora caves were entirely carved out of a single mountain between the early ages of the 6th & 8th century. They house the mind-boggling Kailash Temple, which is the largest structure cut out of a single rock. What's the best part? Nobody knows HOW the caves were made!Dishes of the Mughlai cuisine like the famous Naan qualia and Chicken Kentucky find their roots in the city, treating each traveller with a joyride of flavours on their tongues. There's also a very famous paan centre here, with its most expensive paan costing INR 5,000!Aurangabad is a treasure trove of history, architecture, and textiles alike. Exploring its sinewy streets will open up a lot of stories for you, which are all worth digging into.",
+            "fun": "“The last Mughal Capital”, “The City of Gates”, “The Tourist Capital of Maharashtra”- Aurangabad goes by many nicknames that reveal its historical significance, beauty, and culture alike.The Bibi Ka Maqbara, often confused with the Taj Mahal, is a gorgeous monument in Aurangabad. It was built by Aurangzeb's son and he dedicated it to his mother. The fun fact is, it was built for a prize 45 times less than the Taj Mahal!Aurangabad was a gated city, with 52 mammoth gates protecting it on all of its borders. Some of these gates still exist in the old city, depicting different stories through their architecture.",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/7x147f3PQmOuOrb_o1ez1A/zostel-aurangabad-20201105103524.jpg?w=1280",
+                    "name": "Zostel Aurangabad",
+                    "startingprice": 499,
+                    "desc": "Located close to the star attractions of Aurangabad, Zostel Aurangabad is a happening den for backpackers and travellers. The hostel is filled with eye-catching wall art and quirky spots to chill, suited for a social and happening getaway. It features vibrant common areas to indulge in social events, an in-house cafe for your lazy days, and digital nomad-friendly workstations. We welcome you to spend a joyous holiday exploring the treasures of Aurangabad, from its mysterious caves and delectable Mughlai dishes to its rich culture and history.",
+                    "experience": "Trek to Lonar Lake and Waghora Falls. Visit Ajanta, Ellora, Aurangabad, and Pitalkhora caves. Spend a day at Jayakwadi Bird Sanctuary. Try local cuisines.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/7x147f3PQmOuOrb_o1ez1A/zostel-aurangabad-20201105103524.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Naz8nD7YTcKKFgmtJcBbHg/zostel-aurangabad-tv-area-20201105103528.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ks9iw37kQ_ekQrZIt07mPw/zostel-aurangabad-20230201085939.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/KKQUvDOKTN6t23hHg8bLsg/zostel-aurangabad-reception-20201105103533.jpg?w=1280"
+                    ],
+                    "address": "5-14-34, Adalat Road, beside Raymond's Mens Wear, Kranti Chowk, Snehnagar, Konkanwadi, Aurangabad, Maharashtra - 431001",
+                    "contact": "02248931467",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 3099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "place": "Bangalore",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg",
+            "about": "The usually busy megacity of Bangalore is pictured with lanes filled with bars and pubs, rightfully balanced by monuments and ancient buildings standing against the test of time. Home to classic art forms such as Bharatnatyam, Kuchipudi, Manipuri, and an active theatre community, Bangalore takes creativity very seriously, adorning the inside of the city! Not just this, but the outside is pretty too. The place is surrounded by a number of weekend getaways that make for a great escape from the hustle and bustle it is known for.",
+            "love": "Between Bangalore Palace, Tipu Sultan's Summer Palace, many temples and parks, there are umpteen places in Bangalore that catch the eye of an everyday-traveller. It's an enriching experience to know about the city's rich history while you're here!The city offers the country's finest nightlife experience since it's on a roll with pubs and bars. The food here is great too, especially if you're looking for traditionally prepared South Indian dishes. The busy lanes of Bengaluru treat you with a splash of colours, buzz, and little stories. Whereas the city's outskirts are filled with serene hills, lakes, and greenery, a perfect breather to maintain the balance.",
+            "fun": "The Silicon Valley of India, Bangalore is a hub for education, MNC headquarters, as well as the center of Aerospace in India. Move over IT, Bangalore has tremendous scope for all professionals, as long as they're par excellence!Two very random facts in one: Bengaluru gives free WIFI to its citizens, under the name of Namma WiFi! And the melt-in-your-mouth Rava idlis were invented here!Bangalore has a total of 25 lakes in the city! It is also home to Lal Bagh, which depicts the oldest rock formations in the country, that date back to 3000 million years ago!",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/VNdTvbAvTOCr2KjpFGmB9A/zostel-bangalore-facade-20221021082502.jpg?w=1280",
+                    "name": "Zostel Bangalore",
+                    "startingprice": 799,
+                    "desc": "Zostel Bangalore offers you a convenient, social stay in Bangalore's party hub of Indiranagar. It features indoor and outdoor common areas, a quaint cafe for homely meals, and well-equipped workstations. During your stay here, make new friends, network with the minds of India's silicon valley, and step out to explore the city's finest cafes, monuments, and streets.",
+                    "experience": "Visit Bangalore Palace, Cubbon Park, and Lal Bagh. Shop at MG Road. Indulge in Bangalore's nightlife. Try the street food. Go to Ulsoor Lake and Nandi Hills.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/VNdTvbAvTOCr2KjpFGmB9A/zostel-bangalore-facade-20221021082502.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/TaVutvMQQfCYJ1wesFPJVA/zostel-bangalore-reception-20221021082943.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/gPB5oDSaSYSKdxq2ECWPBw/zostel-bangalore-garden-20221021082522.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/nLSa3A68SYaQ_l0GAMI4gw/zostel-bangalore-20221021082717.jpg?w=1280"
+                    ],
+                    "address": "2032, 17th Main, 1st cross, HAL 2nd stage, Behind Tipsy Bulls Bar, Indiranagar, Bangalore - 560038",
+                    "contact": "04440115819",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 799,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 2099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "place": "Banikhet",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/FkicgycmQUSiCUU2ZjQnFw/banikhet-20230223105721.png?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/FkicgycmQUSiCUU2ZjQnFw/banikhet-20230223105721.png",
+            "about": "Situated only 10 km from Dalhousie, Banikhet is a lesser-known village in Himachal Pradesh. With its plunging pine valleys and endless mountain views, Banikhet is famous as the gateway to the Chamba district. To spend the day doing touristy things, you can trek to Dainkund Peak and Pholani Devi Temple, stroll around verdant meadows, and stargaze by the end of the day. Nearby, the villages of Dalhousie and Khajjiar, as well as the Chamera Lake, make for exciting getaways.",
+            "love": "",
+            "fun": "",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/AnKumVF_S86d3r5QKnoFbA/zostel-banikhet-dalhousie-20220530115239.jpg?w=1280",
+                    "name": "Zostel Banikhet (Dalhousie)",
+                    "startingprice": 649,
+                    "desc": "Perched atop a ridge overlooking verdant Chamba mountains, Zostel Banikhet is a happening backpacker hostel only 10 km from Dalhousie. Combining the adventures of Dalhousie and Khajjiar with more serene milieus, Zostel Banikhet features a pool, a bar, dedicated workstations, vibrant common areas, and an in-house cafe. So come, and spend a zesty holiday in the hills, enjoying bonfire jams, swim sessions, and outdoor adventures to your heart's content.",
+                    "experience": "Trek to Kalatop Wildlife Sanctuary, Dainkund, and Ganji Pahari. Try paragliding. Explore the meadows of Khajjiar. Hike to waterfalls. Indulge in cafe hopping and stroll at Dalhousie's Mall Road. of traditional Himachali decor, the hostel offers vast living spaces, ample seclusion, and umpteen conveniences to relax or socialize. During your stay, pick from our sun-soaked dorms with expansive windows or private rooms with a spacious balcony. Within the hostel, you can indulge in activities such as bonfire jams, swim sessions, games, and stargazing. Whereas outdoors, immersing experiences await you at the Kalatop wildlife sanctuary, Dainkund Peak, Chamera Lake, and more.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/AnKumVF_S86d3r5QKnoFbA/zostel-banikhet-dalhousie-20220530115239.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/_k-PHHTqQn-C8EKvkkk_aA/zostel-banikhet-dalhousie-20220530115248.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/WNsgS4d6SkiAvKzIlfz-HA/zostel-banikhet-dalhousie-20220530115254.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Q_c7wLXCQS601bpUgra6qQ/zostel-banikhet-dalhousie-20220530115301.jpg?w=1280"
+                    ],
+                    "address": "Kheri Road, Vill-Dhalog, PO-Banikhet, Teh-Dalhousie, Chamba - 176303",
+                    "contact": "01141169897",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/MvvMYzTOSOO7Xt7oBlN0qw/zostel-dalhousie-facade-20211223204725.jpg?w=1280",
+                    "name": "Zostel Dalhousie",
+                    "startingprice": 599,
+                    "desc": "Zostel Dalhousie is located in a peaceful neighbourhood of Dalhousie, nestled amidst the verdant peaks of Chamba. Enjoy great views and that breezy pahadi vibe at this hostel's rooftop and common rooms. Zostel Dalhousie also houses an in-house cafe and dedicated workstations for extended and comfy stays. When you step out, Dalhousie wins you with soothing hikes, picture-perfect meadows, and waterside adventures. So come explore it all with us. ",
+                    "experience": "Hike to Panchpula and Satdhara falls, chill at the meadows, stroll around Mall Road, and explore chic cafes. Visit Banikhet and Chamera.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/MvvMYzTOSOO7Xt7oBlN0qw/zostel-dalhousie-facade-20211223204725.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/7DizmmmPSJCVri_uUtaliA/zostel-dalhousie-exterior-20211223203819.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/HCgEjD3MQXWWBUK72A1I6w/zostel-dalhousie-common-area-20211223210832.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/S5v_p6xGRo-QlyAkZ9Rgcw/zostel-dalhousie-cafe-20211223204447.jpg?w=1280"
+                    ],
+                    "address": "Dalhousie Parel Road, Kholpukhar, Near Gandhi Chowk, Dalhousie, Himachal Pradesh 176304",
+                    "contact": "01141169556",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 599,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/ZkNyA1umT_uUHZN6F2Ba5Q/zostel-homes-chamera-chamba-20220524113032.jpg?w=1280",
+                    "name": "Zostel Homes Chamera (Chamba)",
+                    "startingprice": 4299,
+                    "desc": "Perched by the enchanting Chamera Lake, Zostel Home Chamera offers a special holiday retreat near Dalhousie, Himachal Pradesh. The unique travel experience begins with a scenic boat ride to the Zostel Home. The conveniences of luxe rooms with a 360° view, a vegetarian cafe with farm-fresh organic meals, and exquisite outdoor experiences mark your time here. In all, our eco-sensitive Home hosts an intimate and mindful experience of the Himalayas. It welcomes you to relish the finest view of Chamera Lake for a peaceful retreat with your family and loved ones. ",
+                    "experience": "Enjoy a boat ride at Chamera Lake, hike to Dainkund peak, and explore Dalhousie. Take village and nature walks, gaze at stars, and indulge in indoor games.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ZkNyA1umT_uUHZN6F2Ba5Q/zostel-homes-chamera-chamba-20220524113032.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Xaq5hZiuQYmx-Iv1cRTtzA/zostel-homes-chamera-chamba-20220524130107.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Phv9KFTFTleeXBZzTAmOwQ/zostel-homes-chamera-chamba-20220524113129.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ApeTHkHdRQuVfBX2U4ohkQ/zostel-homes-chamera-chamba-20220524113730.jpg?w=1280"
+                    ],
+                    "address": "Panchtatva Estate, Vill-Dugh, P.O Dradha, Teh & Distt. Chamba - 176310",
+                    "contact": "01141169744",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "place": "Barot",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/0h7EG5blRO60ptcETfeOxw/a-trekking-destination-for-adventure-lovers_bpY4sqa.jpg?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/0h7EG5blRO60ptcETfeOxw/a-trekking-destination-for-adventure-lovers_bpY4sqa.jpg",
+            "about": "The sound of car horns is replaced by the endless chirping of native birds. You'll find traffic, lots of it, but only of flocks of mountain sheep and horses grazing nearby. And instead of skyscrapers and pollution, the window to your workplace hosts snow-clad mountains and clear blue skies. Something that makes Barot stand out is its seclusiveness. Disengage from the humdrum of everyday life as you lose yourself in the lap of nature.",
+            "love": "The land of pleasant hikes and magnanimous treks, Barot is no short on remote adventure. Opt between a half-day easy hike, a moderate 2-day camping by the lake, or a full-fledged difficult 12-day trek, the village has options pre-arranged for all types of travellers!The village of Barot is so remote, that distant dreams of stargazing, playing with sheep and calves, listening to the breeze, and snug bonfires are all very much possible here everyday! And when you have a spectacular mountain view to go with all of these, why would you ever want to miss out on this experience? The villages of Barot and Rajgundha have the most loving locals, who lead a simple, traditional mountain lifestyle. If you're lucky, one of them might invite you for a simple and yet fulfilling meal, which no sane traveller would ever deny.",
+            "fun": "The only way to reach Barot and precisely, Zostel Rajgundha, is through a minimum one-hour hike! The town hides deep into the remote Himalayas of Himachal Pradesh and the roads only go till a point.Close to Barot is a village named Bara Bhangal, accessible through a trek from Bir/Barot to Manali. This is said to be the remotest town of India and even holds a jail for the grimmest prisoners, just like Kala Pani.In the 4-day trek to Thamsar Pass Basecamp, you get to camp in the snow amidst snow-peak mountains, visit villages with a population as less as 20 people, and stargaze under the night sky. This moderate to difficult trek is best undertaken between the months of July to September.",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/wQostbYDThySaPFyMiVSqQ/barot-rajgundha-20201112104634.jpeg?w=1280",
+                    "name": "Zostel Barot (Rajgundha)",
+                    "startingprice": 699,
+                    "desc": "Sitting in Barot Valley's dreamy landscape, Zostel Rajgundha is the apt choice for a self-contained mountain getaway. Begin your morning with a hearty breakfast at the in-house café and fill your day with board games, dynamic work sessions, reading, and outdoor adventures. And when the sun goes down painting the skies crimson and gold, play soft music, light up the bonfire, and dance the starry night away with your friends. Come, disengage from everyday city life and delve into solitude, nature, and lots of snow. ",
+                    "experience": "Explore the village. Hike to Menthoo Lake, Hanuman Garh, and Palachak. Trek to Tatwani Hot Springs, Panhyartu, Thamsar Pass Basecamp, and Bada Bhangal. Stargaze.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/wQostbYDThySaPFyMiVSqQ/barot-rajgundha-20201112104634.jpeg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/XQ5zDxbIQt-w7jtC1Psufw/zostel-barot-20210310090253.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/zikM5WECQKazi0_ffIVV8Q/zostel-barot-20210310090259.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/mwN8Qc-HTrKG0r0gNMc9CA/zostel-barot-20210310090225.jpg?w=1280"
+                    ],
+                    "address": "Rajgundha, PO Baragran, Barot, Kangra, Himachal Pradesh",
+                    "contact": "01141169904",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 699,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 1099,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/2zxQ5llSSBaMRCbbAN34kw/zostel-homes-harabhag-mandi-20220812145605.jpg?w=1280",
+                    "name": "Zostel Homes Harabhag (Joginder Nagar)",
+                    "startingprice": 2999,
+                    "desc": "Set amidst verdant rice farms and surrounded by lush mountains, Zostel Home Harabhag (Joginder Nagar) invites you for rejuvenation and solitude. Come here with your squad, family, or partner, and spend your days indulging in the slow life. Take a soothing walk in the rice paddies, relish wholesome meals at Home, and spend precious time in nature. Zostel Home Harabhag is also located close to Bir (20 km), so on a daytime escape, you can explore the paragliding town and all it brings.",
+                    "experience": "Experience the village life, watch sunsets, and stroll around rice paddies. Go on rewarding hike to Jimjema forest and Shanan power house. Take day trips to Indira market, Bangoru waterfall, and Winch camp.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/2zxQ5llSSBaMRCbbAN34kw/zostel-homes-harabhag-mandi-20220812145605.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/QmXymS60RiOYHikBJTmSuQ/zostel-homes-harabhag-mandi-20220812121410.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/uSwBtK32RbmNTL6Jn-19iw/zostel-homes-harabhag-mandi-20220812145333.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/f8-HnVeGR8K5boRKlFHeAQ/zostel-homes-harabhag-mandi-20220812145200.jpg?w=1280"
+                    ],
+                    "address": "VPO Harabhag, Teh. Joginder Nagar, Distt. Mandi, Himachal Pradesh - 175015",
+                    "contact": "01141190762",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 2999,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 2999,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 3099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "type": "Cottage (with Private Lawn and Lake view)",
+                            "desc": "An independent cottage with a double bed, AC, TV, a balcony, and a private lawn with a lake view.",
+                            "pricepernight": 10499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/WjkY0E_KQQquuJk0lCLmFQ/cottage-with-private-lawn-20220322114849.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/OQunyHcyRfiq8nOY6ecksQ/cottage-with-private-lawn-20220322114907.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/e7F4I54QTWiWd3SrwWaIDA/cottage-with-private-lawn-20220322114925.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vyKWMGaKRYyXWQ2Dt8EPxA/cottage-with-private-lawn-20220322114934.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/TFF5NUHfSsWHKmOIWvfZPw/jacuzzi-in-cottages-washroom-20220322115119.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/k5MBu7tnQGasakappF2xdA/cottage-exterior-20220322115216.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/LVLQXug5TqiOReXdjXWe0w/cottage-exterior-20220322115236.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/CyVPaEsCQ7Ok4X6ImU0y-g/cottage-with-private-lawn-20220322114738.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "place": "Bhor",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/VW2zC-HwQbKiyaqFdr7SYw/bhor-20230223105851.png?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/VW2zC-HwQbKiyaqFdr7SYw/bhor-20230223105851.png",
+            "about": "A land of rolling hills, refreshing freshwater lakes, and a variety of flora and fauna, Bhor is a perfect example of an ideal nature retreat. A small village tucked away in the foothills of the Sahyadri, Bhor opens the doors to picturesque hikes, nature trails, and scenic drives. ",
+            "love": "",
+            "fun": "",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/m9MgCe63TBa6fYnrr7tmOQ/zostel-homes-bhor-20220721063533.jpg?w=1280",
+                    "name": "Zostel Homes Bhor",
+                    "startingprice": 5299,
+                    "desc": "Zostel Home Bhor is a luxurious chalet in the foothills of the Sahyadri, 70 km from Pune and 210 km from Mumbai. It overlooks a glittering freshwater lake, offering a slow and peaceful getaway. It is the ideal place to spend time with your group of friends or family, partying, unwinding, and making the most of nature. The Home offers plenty of space for you to socialise, with a watchtower for nature views and the lake close by for quick excursions. To add to it all, your stay is made satisfactory with home-cooked meals and barbeques prepared by our local caretakers. ",
+                    "experience": "Trek to Rajgar fort and nature walks. Drive to Necklace Point and Bhatgar Dam. Chill by the backwaters. Try kayaking and gaze at the starry sky.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/m9MgCe63TBa6fYnrr7tmOQ/zostel-homes-bhor-20220721063533.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/yA9RWVPFTUK9VYhh_TIliA/zostel-homes-bhor-20220721050441.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/m7RgPpN8TjmEqqZixu5eCA/zostel-homes-bhor-20220721053703.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/iRvAcxdoSw6jsLBBxcU15g/zostel-homes-bhor-20220721060008.jpg?w=1280"
+                    ],
+                    "address": "Casuarina, S No 129, Next to Kurunji Ashramshala Village Kurunji, Taluka - Bhor, Dist - Pune, Maharashtra - 412206",
+                    "contact": "02248932816",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 5299,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 5299,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 5299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 5299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 5299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 5299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "type": "Cottage (with Private Lawn and Lake view)",
+                            "desc": "An independent cottage with a double bed, AC, TV, a balcony, and a private lawn with a lake view.",
+                            "pricepernight": 10499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/WjkY0E_KQQquuJk0lCLmFQ/cottage-with-private-lawn-20220322114849.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/OQunyHcyRfiq8nOY6ecksQ/cottage-with-private-lawn-20220322114907.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/e7F4I54QTWiWd3SrwWaIDA/cottage-with-private-lawn-20220322114925.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vyKWMGaKRYyXWQ2Dt8EPxA/cottage-with-private-lawn-20220322114934.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/TFF5NUHfSsWHKmOIWvfZPw/jacuzzi-in-cottages-washroom-20220322115119.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/k5MBu7tnQGasakappF2xdA/cottage-exterior-20220322115216.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/LVLQXug5TqiOReXdjXWe0w/cottage-exterior-20220322115236.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/CyVPaEsCQ7Ok4X6ImU0y-g/cottage-with-private-lawn-20220322114738.jpg?w=200"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/bjUJnZPJRcmvRC4noh1BFw/zostel-plus-lonavala-pool-area-20220327153356.jpg?w=1280",
+                    "name": "Zostel Plus Lonavala",
+                    "startingprice": 1099,
+                    "desc": "Bringing luxury to the dynamic Zostel spirit, Zostel Plus Lonavala is your holiday indulgence right by Pawna Lake. Designed to pamper you with little pockets of leisure, our hostel comprises a swimming pool, lakeside gazebos, an infinity hammock, umpteen vibrant common areas, sprawling gardens, swings, lounges, and a workstation area. For a luxurious stay, your choices are aplenty– swanky dorms, lavish cottages with a balcony and jacuzzi, serene villas, and luxe rooms. Whereas outdoors, exclusive activities such as kayaking, hiking, island visits, and fishing offer you a memorable time with loved ones. ",
+                    "experience": "Hike to Lohagarh Fort, Tikona Fort, and Canyon Valley. Explore Bhaja and Karla Caves. Indulge in water activities. Catch the sunrise and sunset at the hostel.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/bjUJnZPJRcmvRC4noh1BFw/zostel-plus-lonavala-pool-area-20220327153356.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/DGScHCxGRL-4MSU3EEhiyQ/zostel-plus-lonavala-glasshouse-20220328083730.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ZqiPvO3VTWiby-VeD_75YA/zostel-plus-lonavala-common-area-20220327152438.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/XxjjMgVxQkWRzAid0EqIxg/zostel-plus-lonavala-cafeteria-20220327140734.jpg?w=1280"
+                    ],
+                    "address": "Kailas Farm, Village-Apti , Dhamandhara, Taluka- Maval, Apati, Maharashtra, 410401",
+                    "contact": "02249399550",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 1099,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 1099,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 3099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "type": "Cottage (with Private Lawn and Lake view)",
+                            "desc": "An independent cottage with a double bed, AC, TV, a balcony, and a private lawn with a lake view.",
+                            "pricepernight": 10499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/WjkY0E_KQQquuJk0lCLmFQ/cottage-with-private-lawn-20220322114849.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/OQunyHcyRfiq8nOY6ecksQ/cottage-with-private-lawn-20220322114907.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/e7F4I54QTWiWd3SrwWaIDA/cottage-with-private-lawn-20220322114925.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vyKWMGaKRYyXWQ2Dt8EPxA/cottage-with-private-lawn-20220322114934.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/TFF5NUHfSsWHKmOIWvfZPw/jacuzzi-in-cottages-washroom-20220322115119.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/k5MBu7tnQGasakappF2xdA/cottage-exterior-20220322115216.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/LVLQXug5TqiOReXdjXWe0w/cottage-exterior-20220322115236.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/CyVPaEsCQ7Ok4X6ImU0y-g/cottage-with-private-lawn-20220322114738.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "place": "Bir",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/Au2EbwKgSbm7VRBzFhzwIg/taste-adventure-in-the-himalayas-of-bir-202_H7vz0yf.jpg?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/Au2EbwKgSbm7VRBzFhzwIg/taste-adventure-in-the-himalayas-of-bir-202_H7vz0yf.jpg",
+            "about": "A mountain town with glimpses of chic cafes, paragliding, and green landscapes making it a travellers' hub- this is Bir. The little town of Bir is adorned by a local population of Himachalis and Buddhists, artists that have found refuge in its green valleys, and adventure enthusiasts that are drawn to its charm. First things first, Bir is the best paragliding destination in India. Along with biking and hiking adventures, travellers love spending their days cafe-hopping and their nights catching fireflies. From local cafes that cover varying Indian and world cuisines to monasteries that soothe you with their pleasant colours, Bir sure is a sight for sore eyes and empty stomachs.",
+            "love": "India's topmost paragliding destination, Bir welcomes you with incredible flight experience of 25-40 minutes. Travellers from across the country end up here to check the adventure off their bucket list. Sunsets hold a unique charm in the town of Bir. Every evening, nearly half the town gathers at the famous landing site to watch the golden sun go down. The unplanned gathering feels like a pure celebration, which is truly fulfilling & memorable.If mountains and great food is your kind of combo, Bir has a lot in store for you. The chic cafes with excellent views serve lip-smacking food, from contemporary vegan to traditional South Indian and more.",
+            "fun": "A lot of young entrepreneurs have permanently moved to Bir and made it their home. They now run their own cafes, hostels, and festivals. Dream-life, don't you think? Bir is a dog-paradise! Most cafes have their own pet dogs, from gorgeous golden retrievers to cuddly street-adopted. If you're a dog-lover, you've got to be here! The people of Bir are big-time believers and promoters of sustainable travel & living. They have their own garbage disposal and compost system, and strongly discourage littering amongst travellers.",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/8OZJ7ErDTN-oTXNypnFdtw/zostel-bir-20-20201105103914.jpg?w=1280",
+                    "name": "Zostel Plus Bir",
+                    "startingprice": 849,
+                    "desc": "There's a butterfly in Bir; it's us. Basking in the sunshine by daytime and glowing under the stars by dusk, Zostel Plus Bir hides away from the town's uproar. Your resting pad in the mountains overlooks an iconic expanse of forested mountains and rustic fields. Make the most of our teeming-with-life common areas while working, playing, and unwinding. The leaf-shaped cafe, the sunset tree deck, and the dainty streams around the hostel only add to your pleasures. On a usual day here, you'll go bouldering, hike to waterfalls, and explore the town's cafes and monasteries with fellow Zostelers. ",
+                    "experience": "There's a butterfly in Bir; it's us. Basking in the sunshine by daytime and glowing under the stars by dusk, Zostel Plus Bir hides away from the town's uproar. Your resting pad in the mountains overlooks an iconic expanse of forested mountains and rustic fields. Make the most of our teeming-with-life common areas while working, playing, and unwinding. The leaf-shaped cafe, the sunset tree deck, and the dainty streams around the hostel only add to your pleasures. On a usual day here, you'll go bouldering, hike to waterfalls, and explore the town's cafes and monasteries with fellow Zostelers.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/8OZJ7ErDTN-oTXNypnFdtw/zostel-bir-20-20201105103914.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/9K8oci2ETseBEGo70u7wzw/zostel-bir-20-20210409160410.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/6z2MIOGzTWG3jgdljOQTpA/zostel-bir-20-20210409160400.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/W1qcTtdkTG-FgukmNuwBAw/zostel-bir-20-reception-20201105103912.jpg?w=1280"
+                    ],
+                    "address": "216, Bir Khas, VPO Bir, Tehsil Baijnath, District Kangra, Himachal Pradesh, India (176077",
+                    "contact": "01141169853",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 849,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 1099,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/wQostbYDThySaPFyMiVSqQ/barot-rajgundha-20201112104634.jpeg?w=1280",
+                    "name": "Zostel Barot (Rajgundha)",
+                    "startingprice": 699,
+                    "desc": "Sitting in Barot Valley's dreamy landscape, Zostel Rajgundha is the apt choice for a self-contained mountain getaway. Begin your morning with a hearty breakfast at the in-house café and fill your day with board games, dynamic work sessions, reading, and outdoor adventures. And when the sun goes down painting the skies crimson and gold, play soft music, light up the bonfire, and dance the starry night away with your friends. Come, disengage from everyday city life and delve into solitude, nature, and lots of snow.",
+                    "experience": "Explore the village. Hike to Menthoo Lake, Hanuman Garh, and Palachak. Trek to Tatwani Hot Springs, Panhyartu, Thamsar Pass Basecamp, and Bada Bhangal. Stargaze.                    ",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/wQostbYDThySaPFyMiVSqQ/barot-rajgundha-20201112104634.jpeg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/XQ5zDxbIQt-w7jtC1Psufw/zostel-barot-20210310090253.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/zikM5WECQKazi0_ffIVV8Q/zostel-barot-20210310090259.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/mwN8Qc-HTrKG0r0gNMc9CA/zostel-barot-20210310090225.jpg?w=1280"
+                    ],
+                    "address": "Rajgundha, PO Baragran, Barot, Kangra, Himachal Pradesh",
+                    "contact": "01141169904",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 649,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 3099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Cottage (with Private Lawn and Lake view)",
+                            "desc": "An independent cottage with a double bed, AC, TV, a balcony, and a private lawn with a lake view.",
+                            "pricepernight": 10499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/WjkY0E_KQQquuJk0lCLmFQ/cottage-with-private-lawn-20220322114849.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/OQunyHcyRfiq8nOY6ecksQ/cottage-with-private-lawn-20220322114907.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/e7F4I54QTWiWd3SrwWaIDA/cottage-with-private-lawn-20220322114925.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vyKWMGaKRYyXWQ2Dt8EPxA/cottage-with-private-lawn-20220322114934.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/TFF5NUHfSsWHKmOIWvfZPw/jacuzzi-in-cottages-washroom-20220322115119.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/k5MBu7tnQGasakappF2xdA/cottage-exterior-20220322115216.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/LVLQXug5TqiOReXdjXWe0w/cottage-exterior-20220322115236.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/CyVPaEsCQ7Ok4X6ImU0y-g/cottage-with-private-lawn-20220322114738.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "place": "Bundi",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/cQK9NR_tTE-DhTUr4oLv8A/bundi-20230118133109.jpg?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/cQK9NR_tTE-DhTUr4oLv8A/bundi-20230118133109.jpg",
+            "about": "An oasis encompassed by the Aravalli hills, Bundi is a bewitching beauty boasting a rich legacy, colourful culture, and enthralling sights. This city is a beloved getaway among tourists, owing to its numerous carefully crafted palaces and forts, shimmering lakes and waterfalls, and beguiling step wells. A muse to Rudyard Kipling's ‘Kim', Bundi's charm is accentuated by the edifices of the ancient Rajput architecture that provides a glimpse of its immemorial history.",
+            "love": "In Bundi, the must-try dishes include panchkuta, gatte ki sabji, bejad ki roti, dal and sev bhaji, and rabri malpua, among others. Some eateries to visit include Lake View Restaurant, Baori View Restaurant, Krishna Chai Shop, and A&R Cafe, among others.",
+            "fun": "",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/ijTcCh9RQBGhJhTAJX70nQ/zostel-bundi-20230118133345.jpg?w=1280",
+                    "name": "Zostel Bundi ",
+                    "startingprice": 399,
+                    "desc": "A stone's throw away from popular sights, including the 84 Pillared Cenotaph and Raniji ki Baori, Zostel Bundi awaits your arrival. The hostel is a haven decorated in shades of blue and golden that offers cosy private rooms, lively dorms, and a stage to catch various performances. This Zostel brings you an artsy roof-top cafe and seating with a delightful view of the Aravalli hills and remarkable sunsets. In addition, you will find spacious common rooms to socialise and tasteful wall art to please your eyes. So bring your gang or partner, or come all by yourself to witness the magic of Bundi live.",
+                    "experience": "Go on short hikes like the Suraj Chattri hike and Taragarh Fort hike, explore the monuments in the locale, visit the Chitrashala, and tickle your tastebuds with the local cuisine.                    ",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ijTcCh9RQBGhJhTAJX70nQ/zostel-bundi-20230118133345.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/pI-SwkofS3mMqme5sT2LAQ/zostel-bundi-20230118133616.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/nVOGrs1ATCinGVOqeEGExA/zostel-bundi-20230118133711.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/tgZefVIySeWz27PB3S9SIg/zostel-bundi-20230118133816.jpg?w=1280"
+                    ],
+                    "address": "2nd floor, Plot no. 1, Opposite Circuit House, New Colony, Bundi, Rajasthan - 323001",
+                    "contact": "02248901588",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 399,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 1299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "place": "Burwa",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/Nt3RUyD2RLOY5644BBhbcw/burwa-20230223110038.png?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/Nt3RUyD2RLOY5644BBhbcw/burwa-20230223110038.png",
+            "about": "",
+            "love": "",
+            "fun": "",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/ZDU-MRgTSVKNbJr7irX3WA/zostel-manali-vashisht-20221111133755.jpg?w=1280",
+                    "name": "Zostel Manali (Vashisht)",
+                    "startingprice": 699,
+                    "desc": "Our hip new backpacker hostel near Manali, Zostel Manali (Vashisht), opens a new pocket to explore in a good-old destination. Bringing indulgence to backpacking, this hostel has chic common spaces, breathtaking mountain views, and a unique choice for your stay. Alongside spacious and comfy private rooms, you can opt for our special attic dorms and quadruple private rooms to elevate your experience. Other lively corners include the sun-soaked front yard, a cafe with workstations, and balconies that open up to the valley. Ready to explore Manali under a new lens?",
+                    "experience": "Go on hikes, treks, nature walks, and scenic rides. Indulge in river rafting, kayaking, cycling, and paragliding. Visit mall road and explore posh cafes",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ZDU-MRgTSVKNbJr7irX3WA/zostel-manali-vashisht-20221111133755.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/3O2lekoQTt2HnewHoP4DUA/zostel-manali-vashisht-20221111133803.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/KM4pHMcKTuqm97Rp5H1hYA/zostel-manali-vashisht-20221111133810.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/DFxDVwFXSlS_6TQx30DSOQ/zostel-manali-vashisht-20221111133818.jpg?w=1280"
+                    ],
+                    "address": "Near Vashisht Temple, VPO Vashisht, Manali, Kullu, 175103",
+                    "contact": "01141169736",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 699,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 1099,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 3099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "type": "Cottage (with Private Lawn and Lake view)",
+                            "desc": "An independent cottage with a double bed, AC, TV, a balcony, and a private lawn with a lake view.",
+                            "pricepernight": 10499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/WjkY0E_KQQquuJk0lCLmFQ/cottage-with-private-lawn-20220322114849.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/OQunyHcyRfiq8nOY6ecksQ/cottage-with-private-lawn-20220322114907.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/e7F4I54QTWiWd3SrwWaIDA/cottage-with-private-lawn-20220322114925.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vyKWMGaKRYyXWQ2Dt8EPxA/cottage-with-private-lawn-20220322114934.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/TFF5NUHfSsWHKmOIWvfZPw/jacuzzi-in-cottages-washroom-20220322115119.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/k5MBu7tnQGasakappF2xdA/cottage-exterior-20220322115216.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/LVLQXug5TqiOReXdjXWe0w/cottage-exterior-20220322115236.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/CyVPaEsCQ7Ok4X6ImU0y-g/cottage-with-private-lawn-20220322114738.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "place": "Chamba",
+            "img1": "https://img.cdn.zostel.com/zostel/gallery/images/UckUVWBuRO26Pzrm9kNB8A/chamba-20220602201924.jpg?h=400",
+            "img2": "https://img.cdn.zostel.com/zostel/gallery/images/UckUVWBuRO26Pzrm9kNB8A/chamba-20220602201924.jpg",
+            "about": "Chamba, the land of Kailash Mountain and Lord Shiva, is famous for its untouched natural beauty. It is a small but a very attractive tourist destination in Himachal Pradesh, known for its exquisite natural beauty.",
+            "love": "",
+            "fun": "",
+            "hotels": [
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/ZkNyA1umT_uUHZN6F2Ba5Q/zostel-homes-chamera-chamba-20220524113032.jpg?w=1280",
+                    "name": "Zostel Homes Chamera (Chamba)",
+                    "startingprice": 4299,
+                    "desc": "Perched by the enchanting Chamera Lake, Zostel Home Chamera offers a special holiday retreat near Dalhousie, Himachal Pradesh. The unique travel experience begins with a scenic boat ride to the Zostel Home. The conveniences of luxe rooms with a 360° view, a vegetarian cafe with farm-fresh organic meals, and exquisite outdoor experiences mark your time here. In all, our eco-sensitive Home hosts an intimate and mindful experience of the Himalayas. It welcomes you to relish the finest view of Chamera Lake for a peaceful retreat with your family and loved ones. ",
+                    "experience": "Enjoy a boat ride at Chamera Lake, hike to Dainkund peak, and explore Dalhousie. Take village and nature walks, gaze at stars, and indulge in indoor games.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ZkNyA1umT_uUHZN6F2Ba5Q/zostel-homes-chamera-chamba-20220524113032.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Xaq5hZiuQYmx-Iv1cRTtzA/zostel-homes-chamera-chamba-20220524130107.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Phv9KFTFTleeXBZzTAmOwQ/zostel-homes-chamera-chamba-20220524113129.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/ApeTHkHdRQuVfBX2U4ohkQ/zostel-homes-chamera-chamba-20220524113730.jpg?w=1280"
+                    ],
+                    "address": "Panchtatva Estate, Vill-Dugh, P.O Dradha, Teh & Distt. Chamba - 176310",
+                    "contact": "01141169744",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "6 Bed Mixed Dorm",
+                            "desc": "A bed in a mixed dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 4299,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FAjupRY4T06Ek0WdwTBr_w/6-bed-mixed-dorm-20220322141957.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wa22Ix3KRrK1S0CjIIuHPg/6-bed-mixed-dorm-20220322142003.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/QSKv5WnMSrCLHUZp_5LguQ/6-bed-mixed-dorm-20220322142015.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vMZzPrcsRnOqut17uAgvFQ/6-bed-mixed-dorm-20220322142039.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Uid6WhEeS2ympyzxlmi7sQ/6-bed-mixed-dorm-20220322142029.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Aac4-9vgTYiFAGvnugYgFQ/6-bed-mixed-dorm-20220322142023.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Ky6sWPq-TsSqXowk4xHFjg/6-bed-mixed-dorm-washroom-20220322142114.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/pxkAftbpRveyaZ6rhK97hg/6-bed-mixed-dorm-garden-area-20220322173928.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/-se8re49QwmfyTwX4d7Kmg/6-bed-mixed-dorm-garden-area-20220322174216.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/SdqN00xZTZeCih4Xgxx0Wg/6-bed-mixed-dorm-garden-area-20220322174300.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/lhVEFopQQC2IS_cp27HBhA/6-bed-mixed-dorm-garden-area-20220322174320.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Bf1axU1YROaz11eqSJV9-w/cottage-with-private-lawn-20220322114812.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KtBgeAJVSF6i-NEe4PApyg/cottage-with-private-lawn-20220322114837.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/ywA2M7usSc2IHGqtIpXMhQ/cottage-washroom-20220322115024.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Villa (with Lawn)",
+                            "desc": "A private villa with a double bed, AC, a living area, and a private lawn.",
+                            "pricepernight": 6499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YdF04hWJRXGVOXaIj2WBLA/villa-20220322175507.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/4CyoukxISHCONw9PFbQI1w/villa-20220322175513.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/XaXSnGH0SXeKdUuJIiomJg/villa-20220322175521.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/YJnWuPevRPeUYweAFRPWJQ/villa-garden-view-20220322175734.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gCZq2hMqRmGwQgQvKl3flA/villa-washroom-20220322175623.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "Deluxe Private Room",
+                            "desc": "A spacious en-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, and a TV.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/wLCuxbO-SPy1PGmxm5S2eA/deluxe-private-room-sofa-cum-bed-20220328054559.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/W5SDzd6BT42DvmQLt5vaYw/deluxe-private-room-20220328054604.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/7pWuxPrEQEydrx_ay5cU5w/deluxe-private-room-20220328054624.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/dt7fyFRlSxioRI957LSBzw/deluxe-private-room-washroom-20220328054659.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Deluxe Private Room (with Shared Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, and a shared lawn.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/0IfQ7IWyT2eBj74klCRF2g/deluxe-private-room-20220328054542.jpg?w=200"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "hotelimage": "https://img.cdn.zostel.com/zostel/gallery/images/AnKumVF_S86d3r5QKnoFbA/zostel-banikhet-dalhousie-20220530115239.jpg?w=1280",
+                    "name": "Zostel Banikhet (Dalhousie)",
+                    "startingprice": 699,
+                    "desc": "Perched atop a ridge overlooking verdant Chamba mountains, Zostel Banikhet is a happening backpacker hostel only 10 km from Dalhousie. Combining the adventures of Dalhousie and Khajjiar with more serene milieus, Zostel Banikhet features a pool, a bar, dedicated workstations, vibrant common areas, and an in-house cafe. So come, and spend a zesty holiday in the hills, enjoying bonfire jams, swim sessions, and outdoor adventures to your heart's content.",
+                    "experience": "Trek to Kalatop Wildlife Sanctuary, Dainkund, and Ganji Pahari. Try paragliding. Explore the meadows of Khajjiar. Hike to waterfalls. Indulge in cafe hopping and stroll at Dalhousie's Mall Road.",
+                    "images": [
+                        "https://img.cdn.zostel.com/zostel/gallery/images/AnKumVF_S86d3r5QKnoFbA/zostel-banikhet-dalhousie-20220530115239.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/_k-PHHTqQn-C8EKvkkk_aA/zostel-banikhet-dalhousie-20220530115248.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/WNsgS4d6SkiAvKzIlfz-HA/zostel-banikhet-dalhousie-20220530115254.jpg?w=1280",
+                        "https://img.cdn.zostel.com/zostel/gallery/images/Q_c7wLXCQS601bpUgra6qQ/zostel-banikhet-dalhousie-20220530115301.jpg?w=1280"
+                    ],
+                    "address": "Kheri Road, Vill-Dhalog, PO-Banikhet, Teh-Dalhousie, Chamba - 176303",
+                    "contact": "01141169897",
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "type": "8 Bed Female Dorm",
+                            "desc": "A bed in a female-only dormitory with private lockers, AC, and a shared en-suite washroom.",
+                            "pricepernight": 699,
+                            "person": 1,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/bZ7WTo6SQw6fYltknZnMxQ/8-bed-female-dorm-20220322141730.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vOVMx-KGQCCW17A6OATzBA/8-bed-female-dorm-20220322141732.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/FjOASdUbS0SVwPUtEWn-8g/8-bed-female-dorm-20220322141753.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/gjCkq_7aTmuwAoOvtRIVuQ/8-bed-female-dorm-garden-area-20220322174849.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/tvBpXxrxQNiKrgShCWSB2A/8-bed-female-dorm-garden-area-20220322174904.jpg?w=1280",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/qUwC_7zCTfGy5mLKuUMTDA/8-bed-female-dorm-washroom-20220322141855.jpg?w=1280"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "type": "One-Bedroom Suite (with Shared Lawn)",
+                            "desc": "En-suite room ideal for 2 adults with a maximum occupancy of 4. Comes with a double bed, a sofa-cum-bed, AC, TV, a living area, and a shared lawn.",
+                            "pricepernight": 5499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/3K-UdzhMRyWbnh2miA2cLA/one-bedroom-bungalow-with-shared-lawn-20220_xKlb0Lz.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/si0ZyzMWTZyc96N3ewHtNg/one-bedroom-bungalow-living-room-20220325195245.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/MNjBdb_6TcW6HdQN1LxCrg/one-bedroom-bungalow-bedroom-entrance-20220_by3hgjK.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/P5z_vs8rT3i8GE5RfobVFg/one-bedroom-bungalow-bedroom-20220325195332.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/50BlpIUXS6aP0xqHDGcScQ/one-bedroom-bungalow-washroom-20220325195456.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": "Superior Deluxe Room (with Lawn)",
+                            "desc": "En-suite room with a double bed, AC, TV, a spacious balcony, and a shared lawn.",
+                            "pricepernight": 4299,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iHkvc65rRb2OoObB-PS3YQ/superior-deluxe-room-with-lawn-20220328054952.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/RIfVC_VrRzi3XrZAi8a8cg/superior-deluxe-room-with-lawn-20220328055828.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/mwxLZjBqRseHHfAofL63Zw/superior-deluxe-room-with-lawn-20220328055016.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Vjmp_W6VQBGZQfP6J5KjHQ/superior-deluxe-room-with-lawn-20220328055122.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/iWrB86enQxedQL_XurORzQ/superior-deluxe-room-with-lawn-20220328054919.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "type": "Suite with Lake View",
+                            "desc": "A spacious en-suite room with a double bed, AC, a living area with TV, and a lake view.",
+                            "pricepernight": 5099,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/KH7Uof1wRkqqX_Yr825cBQ/suite-lake-view-from-the-window-20220326100442.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Gc6tyNwLSVq_4RTSN3hfZw/suite-bedroom-20220326101614.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/1zrNWGXMRD-80z_uzNYMmg/suite-lake-view-from-the-bedroom-window-202_mBdshAe.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/6dcLb2tuQJi-q_Fpmlu2GQ/suite-living-area-20220326102011.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/j6oT88uXQn6xVmiMlpg1RQ/suite-washroom-20220326102033.jpg?w=200"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "type": "Cottage (with Private Lawn and Lake view)",
+                            "desc": "An independent cottage with a double bed, AC, TV, a balcony, and a private lawn with a lake view.",
+                            "pricepernight": 10499,
+                            "person": 2,
+                            "roomimages": [
+                                "https://img.cdn.zostel.com/zostel/gallery/images/X1citmrUQFW2V_oa5iffaw/cottage-with-private-lawn-20220322114745.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/Djpj7MzXQY-leKMFmpM2ng/cottage-with-private-lawn-20220322114756.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/o1UgWf2CRNesgMC6FGPmWw/cottage-with-private-lawn-20220322114822.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/WjkY0E_KQQquuJk0lCLmFQ/cottage-with-private-lawn-20220322114849.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/OQunyHcyRfiq8nOY6ecksQ/cottage-with-private-lawn-20220322114907.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/e7F4I54QTWiWd3SrwWaIDA/cottage-with-private-lawn-20220322114925.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/vyKWMGaKRYyXWQ2Dt8EPxA/cottage-with-private-lawn-20220322114934.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/TFF5NUHfSsWHKmOIWvfZPw/jacuzzi-in-cottages-washroom-20220322115119.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/k5MBu7tnQGasakappF2xdA/cottage-exterior-20220322115216.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/LVLQXug5TqiOReXdjXWe0w/cottage-exterior-20220322115236.jpg?w=200",
+                                "https://img.cdn.zostel.com/zostel/gallery/images/CyVPaEsCQ7Ok4X6ImU0y-g/cottage-with-private-lawn-20220322114738.jpg?w=200"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "whatsnew": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230412074931.jpg",
+            "title": "All-inclusive trips to North India",
+            "desc": "Ramble up north with Zostel on expertly curated trips with 12 travellers and a local guide to the remote and iconic locations in the Himalayas.",
+            "type": "Trip"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230412074838.jpg",
+            "title": "All-inclusive trips to South India",
+            "desc": "Explore the gems of Southern India through incredibly green forests, verdant spice plantations, local experiences, and exquisite cuisines with Zostel.",
+            "type": "Trip"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230412075017.jpg",
+            "title": "All-inclusive trips to East India",
+            "desc": "Uncover the secrets of Northeast India on expertly curated trips with Zostel, 12 travellers, and a local guide.",
+            "type": "Trip"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230407065301.jpg",
+            "title": "Introducing Zostel Shillong!",
+            "desc": "Immerse yourself in the rhythm of Shillong and treat yourself to a beguiling nature escape.",
+            "type": "Lunch"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230404083901.jpg",
+            "title": "Introducing Zostel Homes Shimla!",
+            "desc": "Behold our brand new Zostel Homes in the capital of Himachal, ideal for an intimate getaway.",
+            "type": "Lunch"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230313122002.jpeg",
+            "title": "Zostel Sissu is back!",
+            "desc": "Explore an enchanting getaway amid Sissu's untouched nature this summer.",
+            "type": "Reopening"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230313121912.jpeg",
+            "title": "Zostel Manali (Vashisht) returns!",
+            "desc": "Beat the heat at Vashisht, Manali, perfect for an adventure-packed escape.",
+            "type": "Reopening"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230301141445.jpg",
+            "title": "Reintroducing Zostel Homes Pushkar!",
+            "desc": "Zostel Homes Pushkar is now hosting travellers in its all new avatar!",
+            "type": "Reopening"
+        },
+        {
+            "id": 9,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230228132749.jpg",
+            "title": "Zostel Chitkul is Back!",
+            "desc": "Enjoy summers at Himachal's dreamy village of Chitkul.",
+            "type": "Reopening"
+        },
+        {
+            "id": 10,
+            "image": "https://img.cdn.zostel.com/zostel/cards/whats_new/None/20230227132953.jpg",
+            "title": "Zostel Barot (Rajgundha) is back!",
+            "desc": "Zostel Barot (Rajgundha) is back after a winter break presenting a chill nature escape this summer.",
+            "type": "Reopening"
+        }
+    ],
+    "north": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/Q5CczWRiSJKEtc_Jd58Mbg/experience-spiti-25th-june-to-2nd-july-2023_0dXEO9z.jpg",
+            "title": "Experience Spiti | 25th June to 2nd July 2023",
+            "price": 24999,
+            "days": 8,
+            "place": "Spiti"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/v-o3ifxTSxeyL15Gt4WRvA/ram-jhula-20230410093235.jpg",
+            "title": "Experience Rishikesh | 1st May to 4th May 2023",
+            "price": 10500,
+            "days": 4,
+            "place": "Rishikesh"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/lj3dLPb9QzOdiwm4BA9SUg/experience-spiti-20230406083216.jpg",
+            "title": "Experience Spiti | 21st to 28th May 2023",
+            "price": 24999,
+            "days": 8,
+            "place": "Spiti"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/zy60o911TSyDhpxgg3ZXeA/experience-spiti-4th-to-11th-june-2023-2023_u490WBL.jpg",
+            "title": "Experience Spiti | 4th to 11th June 2023",
+            "price": 24999,
+            "days": 8,
+            "place": "Spiti"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/j8Jm64eBSIGxfPoJ_Gesog/explore-meghalaya-7th-13th-may-2023-a-trip-_FvoCB3o.jpg",
+            "title": "Explore Meghalaya | 7th - 13th May 2023 | A trip to Northeast India",
+            "price": 17500,
+            "days": 7,
+            "place": "Meghalaya"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/Po6KK7tbT3GL_p0eXcu5YQ/experience-spiti-11th-to-18th-june-2023-202_fGN2xlw.jpg",
+            "title": "Experience Spiti | 11th to 18th June 2023",
+            "price": 24999,
+            "days": 8,
+            "place": "Spiti"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/5iWf8eXsTQ2LP83rdb7ucw/experience-zanskar-14th-to-19th-may-2023-20_vLRDaNf.jpg",
+            "title": "Experience Zanskar | 14th to 19th May 2023",
+            "price": 23999,
+            "days": 6,
+            "place": "Zanskar"
+        }
+    ],
+    "northplaylist": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/ShXfSgWcTLW0N-i9pVxssA/enchanting-with-its-buildings-sunsets-snow-_BnwMZ62.jpg?h=400",
+            "place": "Shimla"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/6E9hY5Y2TUmqpfgkJhEmmA/spiti-20230215131549.png?h=400",
+            "place": "Spiti"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/Au2EbwKgSbm7VRBzFhzwIg/taste-adventure-in-the-himalayas-of-bir-202_H7vz0yf.jpg?h=400",
+            "place": "Bir"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/0wlj3wscTd-7gpMeKkSinA/a-pure-hidden-gem-of-the-himalayas-20201112102045.jpg?h=400",
+            "place": "Chitkul"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/pV8Zu4TVQbeSL59nrusJeA/get-spiritual-adventurous-in-this-city-by-t_xbL6gM3.jpg?h=400",
+            "place": "Rishikesh"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/l0ZziDVVTHGBHlMjCFGWfA/nainital-20220425094011.jpg?h=400",
+            "place": "Nainital"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/N6l5Q3_vRBWklRyr3-MW0g/hikes-sunsets-and-nature-advetures-galore-2_zxqD3IU.jpg?h=400",
+            "place": "Mcleodganj"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/s1T-TU6dSDmNwo7l5oN_FA/mountain-vibes-meet-city-hustle-in-mussoori_9qo0Puk.jpg?h=400",
+            "place": "Mussoorie"
+        }
+    ],
+    "southernplaylist": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/gzl52CwDTOapZZx1su1P4A/a-scenic-hill-station-in-the-truest-sense-2_Do05hrG.jpg?h=400",
+            "place": "Wayanda"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/_an1bHWaQnKXGbfqJit26Q/gokarna-20230223110705.png?h=400",
+            "place": "Gokorna"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/2sebkMshRAGGtfIlFRMpgA/the-city-of-glory-great-food-and-yoga-20201_4LDGqHE.jpg?h=400",
+            "place": "Maysore"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/lOb-_CyoSCyq7VBpGYhehg/varkala-20230223113317.png?h=400",
+            "place": "Varkala"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/nFSCCFyoT1On6QD2gG3SHQ/greenery-is-found-at-its-best-in-coorg-2020_o86HXBS.jpg?h=400",
+            "place": "Coorg"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/zCbvz5tVTc2uZ_C99Cen0A/munnar-20230223112326.png?h=400",
+            "place": "Munnar"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/q2_1UJRKRi-JA5URnsYlrw/a-city-of-eclectic-cultures-mounuments-and-_8br8xkb.jpg?h=400",
+            "place": "Kochi"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/d9HAAgIgTbOwLh-ykkl0AA/vagamon-20230223113203.png?h=400",
+            "place": "Vagamon"
+        }
+    ],
+    "weekend": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/D3heeR2oQGWYbzDudHlb7g/the-ultimate-adventure-destination-20201112102009.jpg?h=400",
+            "place": "Manali"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/kgEw5wMFRlKoyE2kyHW83A/jodhpur-20230223111049.png?h=400",
+            "place": "Jodhpur"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/ajGhJ5OYTQ6hA6blRRvxrw/explore-uttarakhands-offbeat-mountain-town-_33v9F6C.jpg?h=400",
+            "place": "Mukteswar"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/ShXfSgWcTLW0N-i9pVxssA/enchanting-with-its-buildings-sunsets-snow-_BnwMZ62.jpg?h=400",
+            "place": "Shimla"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/z4bjKEERQ-yhAlVw16pLrQ/ooty-20230223112614.png?h=400",
+            "place": "Ooty"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/pV8Zu4TVQbeSL59nrusJeA/get-spiritual-adventurous-in-this-city-by-t_xbL6gM3.jpg?h=400",
+            "place": "Rishikesh"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/u8jCb_7nTdqjHp4YBfiMMg/a-valley-rich-in-culture-adventure-20201112102053.jpg?h=400",
+            "place": "Kullu"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/l0ZziDVVTHGBHlMjCFGWfA/nainital-20220425094011.jpg?h=400",
+            "place": "Nainital"
+        }
+    ],
+    "food": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/kgEw5wMFRlKoyE2kyHW83A/jodhpur-20230223111049.png?h=400",
+            "place": "Jodhpur"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/4Wr0V3z2RzCBL1XsM5CvEA/mumbai-20230223112120.png?h=400",
+            "place": "Mumbai"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/2sebkMshRAGGtfIlFRMpgA/the-city-of-glory-great-food-and-yoga-20201_4LDGqHE.jpg?h=400",
+            "place": "Maysore"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/JvRwM3NRTYSzsz5R1Y1eKg/aurangabad-20230223105304.png?h=400",
+            "place": "Aurangabad"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/dVULiOekQgSX9I3WL-pUjw/kathmandu-20230223111224.png?h=400",
+            "place": "Kathmandu"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/pV8Zu4TVQbeSL59nrusJeA/get-spiritual-adventurous-in-this-city-by-t_xbL6gM3.jpg?h=400",
+            "place": "Rishikesh"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/ZP7PLUJqTUOAqLSTCvgd4A/gangtok-20230223114448.png?h=400",
+            "place": "Gangtok"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/q2_1UJRKRi-JA5URnsYlrw/a-city-of-eclectic-cultures-mounuments-and-_8br8xkb.jpg?h=400",
+            "place": "Kochi"
+        }
+    ],
+    "nature": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/nFSCCFyoT1On6QD2gG3SHQ/greenery-is-found-at-its-best-in-coorg-2020_o86HXBS.jpg?h=400",
+            "place": "Coorg"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/Bc7YNiSfR4GdQpPFhIfBXQ/kotgarh-20220520094350.jpg?h=400",
+            "place": "Kotgarh"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/UckUVWBuRO26Pzrm9kNB8A/chamba-20220602201924.jpg?h=400",
+            "place": "Chamba"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/7aR77y23RE2ku4DqWkxMQw/kotkhai-20220129082514.jpeg?h=400",
+            "place": "Kotkhai"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/eU1SC0kiQqqDT0gUpZu1_w/meadow-in-sainj-20211018183004.jpg?h=400",
+            "place": "Sainj"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/9qA5tJuOQ-KuMTDuQaawNA/rashil-20220520101141.jpg?h=400",
+            "place": "Rashil"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/LmB7Z-GjTlGOvNACrKJF3A/sangla-valley-20220427141131.jpg?h=400",
+            "place": "Sangla"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/EsIbErltRXGlh2pPghv4dA/kodaikanal-20230223111433.png?h=400",
+            "place": "Kodaikanal"
+        }
+    ],
+    "offbeat": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/6E9hY5Y2TUmqpfgkJhEmmA/spiti-20230215131549.png?h=400",
+            "place": "Spiti"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/XKIjO23yQGiZ5JUD3lYbbQ/cheog-20230223110216.png?h=400",
+            "place": "Cheog"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/UckUVWBuRO26Pzrm9kNB8A/chamba-20220602201924.jpg?h=400",
+            "place": "Chamba"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/EG5ypwdDS5qOTvUD1wHlAg/shangarh-20220520104026.jpg?h=400",
+            "place": "Shangarh"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/DQgGrIe5QU28zSn0q7r_hw/laida-20220531122210.png?h=400",
+            "place": "Laida"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/LmB7Z-GjTlGOvNACrKJF3A/sangla-valley-20220427141131.jpg?h=400",
+            "place": "Sangla"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/ejoc4XjpR8K-iVeLgcsJhA/theog-20220129083825.jpeg?h=400",
+            "place": "Theog"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/zostel/gallery/images/ycrLKCSzTLynEcEMWhfhbQ/kibber-village-20220518114707.jpg?h=400",
+            "place": "Kibber"
+        }
+    ],
+    "awards": [
+        {
+            "id": 1,
+            "image": "https://img.cdn.zostel.com/branding/awards/202303/hoty-zostel-manali.png",
+            "winner": "Best Hotel in India",
+            "year": 2023,
+            "desc": "At the 'Outlook Traveller Awards' 2023. Winner - Zostel Manali (Old Manali)"
+        },
+        {
+            "id": 2,
+            "image": "https://img.cdn.zostel.com/branding/awards/202303/favourite-homestays.png",
+            "winner": "Best Hotel in India",
+            "year": 2022,
+            "desc": "At 'India's Favourite Homestays Awards' co-organized by MakeMyTrip and Times of India. Winner  - Zostel Chitkul"
+        },
+        {
+            "id": 3,
+            "image": "https://img.cdn.zostel.com/branding/awards/202303/quantic.png",
+            "winner": "Customer Experience in the Crisis - Travel & Hospitality Services",
+            "year": null,
+            "desc": "At the 'Customer Experience Excellence Awards' 2022. Winner - Zostel - Chain"
+        },
+        {
+            "id": 4,
+            "image": "https://img.cdn.zostel.com/cache/_3eb08c6992bfe8436b7b5834bf99ad30/C3fgJ6OWIAAWLBM.jpg-large_140x140.jpg",
+            "winner": "Best Hotel in India",
+            "year": 2017,
+            "desc": "Hostelworld award for Best Hostel in India"
+        },
+        {
+            "id": 5,
+            "image": "https://img.cdn.zostel.com/cache/_a071cbb4dbfe7b8d11d2951f5e1f572c/Best_Hostel_in_Nepal_140x140.jpg",
+            "winner": "Best Hotel in India",
+            "year": 2019,
+            "desc": "Hostelworld award for Best Hostel in Nepal"
+        },
+        {
+            "id": 6,
+            "image": "https://img.cdn.zostel.com/cache/_84fa6c15c7c951ca462e52249af390f4/TRIP_advisor_200-2_140x140.jpg",
+            "winner": "CERTIFICATE OF EXCELLENCE",
+            "year": null,
+            "desc": "Zostel was awarded with this certifcation"
+        },
+        {
+            "id": 7,
+            "image": "https://img.cdn.zostel.com/cache/_89e2b2a63b529b116d3655245125554c/Hoscars_140x140.jpg",
+            "winner": "Best Hotel in India",
+            "year": 2015,
+            "desc": "Hostelworld award for Best Hostel in India"
+        },
+        {
+            "id": 8,
+            "image": "https://img.cdn.zostel.com/cache/_f10d134ed20d039cec34c0465c31cb1e/ttf_logo_6782_140x140.jpg",
+            "winner": "BEST VALUE LEISURE PRODUCT",
+            "year": null,
+            "desc": "Awarded by India's largest travel trade show"
+        }
+    ],
+    "blogs": [
+        {
+            "id": 1,
+            "auth": "Vinita Gupta",
+            "title": "Best of North Goa for backpackers: Hikes, Cafes, & Places to Explore",
+            "image": "https://img.cdn.zostel.com/blog_photo/cola_beach.jpg",
+            "desc": "Speaking of reasons to visit Goa, this coveted destination has way too many."
+        },
+        {
+            "id": 2,
+            "auth": "Kajal Semwal",
+            "title": "A Guide to Your Bundi Sightseeing Escape",
+            "image": "https://img.cdn.zostel.com/blog_photo/Cover.jpg",
+            "desc": "Discovering the charms of offbeat Rajasthan through Bundi."
+        },
+        {
+            "id": 3,
+            "auth": "Kajal Semwal",
+            "title": "All You Need to Know About the Zostel App",
+            "image": "https://img.cdn.zostel.com/blog_photo/blog_cover_app-01.jpg",
+            "desc": "Introducing the Zostel App and its features"
+        }
+    ]
+}

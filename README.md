@@ -1,8 +1,8 @@
 # Zostel Clone
-# 
-# Manoj Kumar Padhy
-# Ankit
-# Vanshika
+# collaborators 
+## Manoj Kumar Padhy
+## Ankit
+## Vanshika
 
 # Getting Started with Create React App
 
