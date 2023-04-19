@@ -23,7 +23,8 @@ import {
     List,
     ListItem,
     UnorderedList,
-    AspectRatio
+    AspectRatio,
+    Center
 
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -72,7 +73,7 @@ const Hotelrooms = () => {
             {
                 data != undefined && <Box maxW={'1100px'} m={'auto'}>
                     <Breadcrumb fontSize={'13px'} separator={<ChevronRightIcon color='gray.500' />}>
-                        <BreadcrumbItem ml={'-25px'} >
+                        <BreadcrumbItem  >
                             <Link to={'/'} style={{ textDecoration: 'none' }}>
                                 <BreadcrumbLink _hover={{ color: '#f15824' }} color={'grey'}>Home</BreadcrumbLink>
                             </Link>
@@ -96,7 +97,7 @@ const Hotelrooms = () => {
                     </Breadcrumb>
                     <Hotelimages images={data.images} />
 
-                    <SimpleGrid pr={20} pl={20} minChildWidth='120px' spacing='20px'>
+                    {/* <SimpleGrid pr={20} pl={20} minChildWidth='120px' spacing='20px'>
                         <Stack >
                             <Heading as='h1' size='4xl' color={'#f15824'} >{data.name}</Heading>
                             <Collapse startingHeight={100} in={show}>
@@ -117,8 +118,33 @@ const Hotelrooms = () => {
                     <Availablerooms />
 
                     <Box>
-                        <Box pt={40} pb={40} bg={'#e8f0f2'}>
+                        <Box p={10} pt={30} pb={30} bg={'#e8f0f2'}>
+                            <Flex flexWrap='wrap'  >
 
+                                <Box flex='2'>
+                                    <Flex border={'1px solid green'} alignItems={'center'} >
+                                        <Box flex={'3'}>
+                                            <Text as={'h1'} mb={-15}>
+                                                Book your stay
+                                            </Text>
+                                            <Text fontWeight={'bolder'} color={'grey'}>
+                                                Select from a range of beautiful rooms
+                                            </Text>
+                                        </Box>
+                                        <Box flex={'1'}>
+                                            <Button variant={'ghost'}>
+                                                INR
+                                            </Button>
+                                        </Box>
+                                        <Box flex={'2'}>
+
+                                        </Box>
+                                    </Flex>
+                                </Box>
+                                <Box flex='1' display='flex' bg='tomato'>
+                                    <Text>Box 3</Text>
+                                </Box>
+                            </Flex>
                         </Box>
                         <Flex flexWrap='wrap' >
 
@@ -239,7 +265,7 @@ const Hotelrooms = () => {
                         <Text pt={4} pl={0}>
                             For any other queries, please reach out to us at reservations@zostel.com.
                         </Text>
-                    </Box>
+                    </Box> */}
                 </Box>
             }
         </div>
