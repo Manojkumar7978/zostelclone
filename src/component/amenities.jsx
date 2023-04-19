@@ -25,13 +25,13 @@ const Amenities = () => {
     ]
     return (
         <div>
-            <Heading as='h1' size={'4xl'} color={'black'}>Amenities</Heading>
+            <Heading as='h1' size={'md'} pr={5} pt={2} pb={3} color={'black'}>Amenities</Heading>
             <Text noOfLines={1}>
-                <Grid gap={10} templateColumns={['repeat(2, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']} >
+                <Grid gap={2} templateColumns={['repeat(2, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']} >
                     {
                         list.map((el, ind) => {
                             return <GridItem key={ind} >
-                                <Box as='button' color={'black'} textAlign={'left'} pl={0} bg={'white'} border={'none'}>
+                                <Box fontSize={'14px'} as='button' color={'black'} textAlign={'left'} pl={0} bg={'white'} border={'none'}>
                                     {el}
                                 </Box >
                             </GridItem>
