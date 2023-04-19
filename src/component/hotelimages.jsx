@@ -6,8 +6,8 @@ const Hotelimages = ({ images }) => {
 
     return (
         <div>
-            <Box borderRadius={'12px'}>
-                <Grid bg={'white'} templateColumns='repeat(4, 1fr)' gap={3}>
+            <Box borderRadius={'12px'} pt={2}>
+                <Grid bg={'white'} templateColumns='repeat(4, 1fr)' gap={1}>
                     <GridItem colSpan={3} rowSpan={3}>
                         <Image _hover={{ opacity: '0.7', cursor: 'zoom-in' }} borderRadius={'12px 0 0 12px'} src={images[0]} w={'100%'} h={'100%'} />
                     </GridItem>
