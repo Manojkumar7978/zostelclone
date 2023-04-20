@@ -56,7 +56,6 @@ const Hotelrooms = () => {
     useEffect(() => {
         fetchData(id)
             .then((res) => {
-                console.log(res.data);
                 setDest({ ...res.data })
                 setData({ ...res.data.hotels[hotelid - 1], place: res.data.place })
             })
@@ -115,7 +114,7 @@ const Hotelrooms = () => {
                             <Amenities />
                         </Box>
                     </SimpleGrid>
-                    <Availablerooms />
+                    <Availablerooms data={data} />
 
                     <Box>
                         <Flex flexDirection={['column', 'column', 'row']} pt={3} >
@@ -168,7 +167,7 @@ const Hotelrooms = () => {
                                     </AccordionItem>
                                 </Accordion>
                                 <br />
-                                <Box as='button' fontWeight={'bold'} border={'1px solid black'} p={2} borderRadius={10} textAlign={'left'} leftIcon={<UpDownIcon />} color={'#f15824'} variant={'outline'} w={'100%'}>Get Direction</Box>
+                                <Box as='button' fontWeight={'bold'} border={'1px solid black'} p={2} borderRadius={10} textAlign={'left'} color={'#f15824'} variant={'outline'} w={'100%'}><UpDownIcon /> Get Direction</Box>
 
                             </Box>
                             <Box flex='1' alignItems={'center'} p={3} mt={4} >
