@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './component/nav';
 import Allroutes from './Allroutes/allroutes';
 import Footer from './component/footer';
-import Destinationdetails from './pages/destinationdetails';
+
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Allroutes />
       <Footer />
-    <Destinationdetails/>
+    
     </div>
 
   );
