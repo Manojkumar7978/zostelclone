@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import {
     Flex, Box, Text, Button, Heading, Input, HStack, Image, Stack, Spacer,
     Tooltip,
@@ -25,20 +25,27 @@ import {
     ButtonGroup,
     IconButton,
     useToast,
+    useBoolean,
 } from '@chakra-ui/react';
 import { AddIcon, ArrowForwardIcon, ChevronDownIcon, DeleteIcon, InfoOutlineIcon, MinusIcon } from '@chakra-ui/icons';
 import { useDisclosure } from '@chakra-ui/react';
 import Hotelimages from './hotelimages';
 import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
-import { useRef } from 'react';
+import { useParams, useSearchParams, useNavigate } from 'react-router-dom'
 
-const Availablerooms = ({ data }) => {
+
+const Availablerooms = ({ data, destinationId, hotelid }) => {
+
+    let navigate = useNavigate()
     const toast = useToast()
-
     let payble = useRef({ total: 0 })
-    let [money, setMoney] = useState('USD')
+    let startingDate = useRef()
+    let endingDate = useRef()
+    let [money, setMoney] = useState('INR')
+    const [flag, setFlag] = useBoolean()
     let [rooms, setRooms] = useState({ ...data })
+    let [parameter, setParameter] = useSearchParams()
     let [totalNight, setNight] = useState(1);
     let [bookedRooms, setBookedRooms] = useState([])
     let increaseBed = (id, x) => {
@@ -196,15 +203,53 @@ const Availablerooms = ({ data }) => {
 
     useEffect(() => {
         setBookedRooms([...bookedRooms]);
-    }, [money])
+
+        const compareDates = (d1, d2) => {
+            let date1 = new Date(d1).getTime();
+            let date2 = new Date(d2).getTime();
+
+            if (date1 < date2) {
+                return true
+            } else if (date1 > date2) {
+                return false
+            } else {
+                return false;
+            }
+        };
+        let boolean = true;
+        if (compareDates(date.start, date.end)) {
+            // console.log(date.start, date.end)
+            var d1 = new Date(date.start);
+            var d2 = new Date(date.end);
+            var diff = d2.getTime() - d1.getTime();
+            var daydiff = diff / (1000 * 60 * 60 * 24);
+            setNight(daydiff)
+        } else {
+            toast({
+
+                status: 'info',
+                isClosable: true,
+                position: 'top-right',
+                bg: 'black',
+                render: () => (
+                    <Box color='white' p={3} bg='black' borderRadius={10} opacity={'0.7'}>
+                        <InfoOutlineIcon /> Please input correct calendar dates.
+                    </Box>
+                ),
+            })
+            startingDate.current.value = `${year}-${month}-${day}`
+            endingDate.current.value = `${tyear}-${tmonth}-${tday}`
+        }
+
+    }, [money, date])
     return (
         <div>
             <Box p={4} pt={30} pb={30} bg={'#e8f0f2'} mt={4}>
 
-                <Flex gap={4} >
+                <Flex gap={4} flexDirection={['column', 'column', 'row']} >
 
-                    <Box flex='2'>
-                        <Flex textAlign={['center', 'center', 'left']} flexDirection={['column', 'column', 'row']} gap={1} alignItems={'center'} justifyContent={'center'} >
+                    <Box flex='2' >
+                        <Flex pt={3} pb={2} position={'sticky'} bg={'#e8f0f2'} top={0} zIndex={2} textAlign={['center', 'center', 'left']} flexDirection={['column', 'column', 'row']} gap={1} alignItems={'center'} justifyContent={'center'} >
                             <Box minW={{ lg: '300px' }}  >
                                 <Heading size={'lg'}>
                                     Book your stay
@@ -246,9 +291,21 @@ const Availablerooms = ({ data }) => {
                             </Box>
                             <Box w={'100%'} borderRadius={10} mr={2} ml={2} boxShadow='xs'>
                                 <Flex borderRadius={10} flexDirection={['column', 'row', 'row']} bg={'white'} alignItems={'center'}>
-                                    <Input border={'none'} borderRadius={'5px 0 0 5px'} type='date' defaultValue={date.start} min={date.smin} />
+                                    <Input ref={startingDate} border={'none'} borderRadius={'5px 0 0 5px'} type='date' onChange={(e) => {
+                                        setDates({
+                                            ...date,
+                                            start: e.target.value
+
+                                        })
+                                    }} defaultValue={date.start} min={date.smin} />
                                     <Box> <ArrowForwardIcon /></Box>
-                                    <Input border={'none'} borderRadius={'0 5px 5px 0'} type='date' defaultValue={date.end} min={date.emin} />
+                                    <Input ref={endingDate} border={'none'} borderRadius={'0 5px 5px 0'} onChange={(e) => {
+                                        setDates({
+                                            ...date,
+                                            end: e.target.value
+
+                                        })
+                                    }} type='date' defaultValue={date.end} min={date.emin} />
                                 </Flex>
                             </Box>
                         </Flex>
@@ -354,7 +411,7 @@ const Availablerooms = ({ data }) => {
                                                             <Spacer />
                                                             <Stack>
                                                                 <Heading size={'sm'}>{
-                                                                    money == 'INR' ? <>₹ {el.pricepernight}</> : <>$ {Math.round(el.pricepernight / 82.12)}</>
+                                                                    money == 'INR' ? <>₹ {el.pricepernight}</> : <>$ {(el.pricepernight / 82.12).toFixed(2)}</>
                                                                 }<span style={{ fontSize: '12px', fontWeight: 'normal' }}>/night</span></Heading>
                                                             </Stack>
 
@@ -440,152 +497,179 @@ const Availablerooms = ({ data }) => {
                             }
                         </Box>
                     </Box>
-                    <Box flexDirection={'column'} flex='1' display={['none', 'none', 'flex']} >
-                        <Heading size={'md'}>Summary</Heading>
+                    <Flex flexDirection={'column'} flex='1'>
+                        <Box pt={4} pb={2} position={'sticky'} bg={'#e8f0f2'} top={0} zIndex={1} >
+                            <Heading size={'md'}>Summary</Heading>
 
-                        <Flex gap={1} fontSize={'13px'}>
-                            <Text fontWeight={'bold'} color={'black'}>{totalNight} night
-                            </Text>
-                            <Text color='gray' fontWeight='bold'>{' '}starting from </Text>
-                            <Text color='black' fontWeight='bold'>
-                                {date.start}
-                            </Text>
+                            <Flex gap={1} fontSize={'13px'}>
+                                <Text fontWeight={'bold'} color={'black'}>{totalNight} night
+                                </Text>
+                                <Text color='gray' fontWeight='bold'>{' '}starting from </Text>
+                                <Text color='black' fontWeight='bold'>
+                                    {date.start}
+                                </Text>
 
-                        </Flex>
-                        {
-                            bookedRooms.length > 0 &&
-                            <Box pt={4}>
+                            </Flex>
+                            <div style={{ display: 'none' }}> {
 
-                                {
-                                    useRef.current = 0
-                                }
-                                {
+                                payble.current = 0
 
-                                    bookedRooms.map((el, ind) => {
-                                        payble.current += el.pricepernight * el.bed * totalNight;
-                                        return <Box pb={1} pt={1}>  <Flex flexDirection={'row'} alignItems={'center'} >
-                                            <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{el.type} <span style={{ color: 'grey' }}>x {el.bed}</span></span>
-                                            <Spacer />
-                                            <IconButton onClick={() => {
-                                                bookedRooms.splice(ind, 1)
-                                                setBookedRooms([...bookedRooms])
-                                            }} size={'xs'} _hover={{ color: '#f26c4f' }} variant={'ghost'}><DeleteIcon /></IconButton>
-                                        </Flex>
+                            }</div>
+                            {
+
+                                bookedRooms.length > 0 ?
+
+                                    <> <Box pt={4}>
+                                        {
+
+                                            bookedRooms.map((el, ind) => {
+                                                payble.current += el.pricepernight * el.bed * totalNight;
+                                                return <Box> <Box pb={1} pt={1}>  <Flex flexDirection={'row'} alignItems={'center'} >
+                                                    <Text noOfLines={1}><span style={{ fontSize: '13px', fontWeight: 'bold' }}>{el.type} <span style={{ color: 'grey' }}>x {el.bed}</span></span>
+                                                    </Text>
+                                                    <Spacer />
+                                                    <IconButton onClick={() => {
+                                                        bookedRooms.splice(ind, 1)
+                                                        setBookedRooms([...bookedRooms])
+                                                    }} size={'xs'} _hover={{ color: '#f26c4f' }} variant={'ghost'}><DeleteIcon /></IconButton>
+                                                </Flex>
+                                                    <Flex>
+
+                                                        <span style={{ fontSize: '13px', fontWeight: 'bolder', color: 'grey' }}>
+                                                            {
+                                                                money == "USD" ?
+                                                                    <>
+                                                                        $
+
+                                                                        {
+                                                                            ' ' + (el.pricepernight * el.bed / 82.14).toFixed(2) + ' '
+                                                                        }
+                                                                        x {totalNight} night
+                                                                    </> :
+                                                                    <>
+
+                                                                        ₹
+                                                                        {
+                                                                            ' ' + el.pricepernight * el.bed + ' '
+                                                                        }
+                                                                        x {totalNight} night</>
+                                                            }
+                                                        </span>
+                                                        <Spacer />
+                                                        <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{
+                                                            money == "USD" ?
+                                                                <>
+                                                                    $
+                                                                    {
+                                                                        (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                                    }
+                                                                </> :
+                                                                <>
+
+                                                                    ₹
+                                                                    {
+                                                                        el.pricepernight * el.bed * totalNight
+                                                                    }
+                                                                </>
+                                                        }</span>
+                                                    </Flex></Box>
+
+                                                </Box>
+
+
+                                            })}
+                                        <Box fontWeight={'bold'} fontSize={'14px'} pt={3}>
+
                                             <Flex>
-
-                                                <span style={{ fontSize: '13px', fontWeight: 'bolder', color: 'grey' }}>
+                                                <Text>Tax</Text>
+                                                <Spacer />
+                                                <Text>
                                                     {
-                                                        money == "USD" ?
+                                                        money == 'INR' ?
                                                             <>
-                                                                $
-
                                                                 {
-                                                                    ' ' + (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                                    '₹ ' + Math.round((payble.current * 12) / 100)
                                                                 }
-                                                                x {totalNight} night
                                                             </> :
                                                             <>
-
-                                                                ₹
                                                                 {
-                                                                    ' ' + el.pricepernight * el.bed * totalNight
+                                                                    '$ ' + ((Math.round((payble.current * 12) / 100)) / 82.14).toFixed(2)
                                                                 }
-                                                                x {totalNight} night</>
+                                                            </>
                                                     }
-                                                </span>
+
+                                                </Text>
+                                            </Flex>
+
+                                            <Flex>
+                                                <Text>Total (tax incl.)</Text>
                                                 <Spacer />
-                                                <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{
-                                                    money == "USD" ?
-                                                        <>
-                                                            $
-                                                            {
-                                                                (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
-                                                            }
-                                                        </> :
-                                                        <>
+                                                <Text>
+                                                    {
+                                                        money == 'INR' ?
+                                                            <>
+                                                                {
+                                                                    '₹ ' + (payble.current + (Math.round((payble.current * 12) / 100)))
+                                                                }
+                                                            </> :
+                                                            <>
+                                                                {
+                                                                    '$ ' + ((payble.current + (Math.round((payble.current * 12) / 100))) / 82.14).toFixed(2)
+                                                                }
+                                                            </>
+                                                    }
+                                                </Text>
+                                            </Flex>
+                                            <Flex>
+                                                <Text>
+                                                    Payable Now
+                                                </Text>
+                                                <Spacer />
+                                                <Text>
+                                                    {
+                                                        money == 'INR' ?
+                                                            <>
+                                                                {
+                                                                    '₹ ' + Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)
 
-                                                            ₹
-                                                            {
-                                                                el.pricepernight * el.bed * totalNight
-                                                            }
-                                                        </>
-                                                }</span>
-                                            </Flex></Box>
-                                    })}
-                                <Box fontWeight={'bold'} fontSize={'14px'} pt={3}>
+                                                                }
+                                                            </> :
+                                                            <>
+                                                                {
+                                                                    '$ ' + ((Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)) / 82.14).toFixed(2)
+                                                                }
+                                                            </>
+                                                    }
+                                                </Text>
+                                            </Flex>
+                                        </Box>
+                                        <Button onClick={() => {
+                                            navigate({
+                                                pathname: '/zostelbooking',
+                                                search: `?hotelid=${hotelid}&destinationid=${destinationId}&checkin=${startingDate.current.value}&checkout=${endingDate.current.value}&currency=${money}&totalnight=${totalNight}`,
+                                            });
 
-                                    <Flex>
-                                        <Text>Tax</Text>
-                                        <Spacer />
-                                        <Text>
-                                            {
-                                                money == 'INR' ?
-                                                    <>
-                                                        {
-                                                            '₹ ' + Math.round((payble.current * 12) / 100)
-                                                        }
-                                                    </> :
-                                                    <>
-                                                        {
-                                                            '$ ' + Math.round((Math.round((payble.current * 12) / 100)) / 82.14)
-                                                        }
-                                                    </>
-                                            }
+                                        }} mt={5} width={'100%'} color={'white'} _hover={{ bg: '#f15824' }} bg={'#f15824'} variant='solid'>
+                                            Book Now
+                                        </Button >
+                                    </Box>
 
-                                        </Text>
-                                    </Flex>
 
-                                    <Flex>
-                                        <Text>Total (tax incl.)</Text>
-                                        <Spacer />
-                                        <Text>
-                                            {
-                                                money == 'INR' ?
-                                                    <>
-                                                        {
-                                                            '₹ ' + (payble.current + (Math.round((payble.current * 12) / 100)))
-                                                        }
-                                                    </> :
-                                                    <>
-                                                        {
-                                                            '$ ' + Math.round((payble.current + (Math.round((payble.current * 12) / 100))) / 82.14)
-                                                        }
-                                                    </>
-                                            }
-                                        </Text>
-                                    </Flex>
-                                    <Flex>
-                                        <Text>
-                                            Payable Now
-                                        </Text>
-                                        <Spacer />
-                                        <Text>
-                                            {
-                                                money == 'INR' ?
-                                                    <>
-                                                        {
-                                                            '₹ ' + Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)
 
-                                                        }
-                                                    </> :
-                                                    <>
-                                                        {
-                                                            '$ ' + Math.round((Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)) / 82.14)
-                                                        }
-                                                    </>
-                                            }
-                                        </Text>
-                                    </Flex>
-                                </Box>
-                                <Button mt={5} width={'100%'} color={'white'} _hover={{ bg: '#f15824' }} bg={'#f15824'} variant='solid'>
-                                    Book Now
-                                </Button >
-                            </Box>
-                        }
-                    </Box>
+
+                                    </>
+                                    :
+                                    <Box width={'200px'}>
+                                        <Image width={'200px'} src='https://book.zostel.com/static/media/gray-zobu.018014d9.svg' />
+                                        <Heading mt={4} textAlign={'center'} color={'grey'} fontWeight={'bold'} size={'sm'}>No room selected</Heading>
+                                    </Box >
+                            }
+                        </Box> </Flex>
+
                 </Flex>
 
             </Box>
+
         </div>
     );
 }
