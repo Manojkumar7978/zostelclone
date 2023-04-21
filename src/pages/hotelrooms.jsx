@@ -32,6 +32,8 @@ import Hotelimages from '../component/hotelimages';
 import Amenities from '../component/amenities';
 import Availablerooms from '../component/availablerooms';
 import ViewAllPhotos from '../component/view_all_photos';
+import Loading from '../component/loading';
+import Latestreads from '../component/latestreads';
 
 
 let fetchData = async (id) => {
@@ -69,7 +71,7 @@ const Hotelrooms = () => {
         <div >
 
             {
-                data != undefined && <Box maxW={'1100px'} m={'auto'}>
+                data != undefined ? <Box maxW={'1100px'} m={'auto'}>
                     <Box display={['block', 'none', 'none']} bg={'black'} borderRadius={10}>
                         <ViewAllPhotos images={data.images} />
                     </Box>
@@ -246,8 +248,11 @@ const Hotelrooms = () => {
 
                     {/* Slider1 */}
 
-
-                </Box>
+                    <Latestreads />
+                </Box> :
+                    <>
+                        <Loading />
+                    </>
             }
         </div>
 

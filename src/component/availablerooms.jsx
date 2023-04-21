@@ -33,6 +33,7 @@ import Hotelimages from './hotelimages';
 import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
 import { useParams, useSearchParams, useNavigate } from 'react-router-dom'
+import Smallslider from './smallslider';
 
 
 const Availablerooms = ({ data, destinationId, hotelid }) => {
@@ -48,6 +49,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
     let [parameter, setParameter] = useSearchParams()
     let [totalNight, setNight] = useState(1);
     let [bookedRooms, setBookedRooms] = useState([])
+
     let increaseBed = (id, x) => {
 
         if (x == 1) {
@@ -156,28 +158,28 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
     }
     let tyear = tomorrow.getFullYear()
     let [date, setDates] = useState({ start: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}`, smin: `${year}-${month}-${day}`, emin: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}` })
-    const arrowStyles = {
-        cursor: "pointer",
-        pos: "absolute",
-        // top: "50%",
-        w: "10px",
-        h: "100%",
-        // mt: "-72px",
-        pt: '30%',
-        // pb: "10%",
-        pr: '15px',
-        pl: '15px',
-        color: "white",
-        fontWeight: "bold",
-        fontSize: "18px",
-        transition: "0.6s ease",
-        borderRadius: "0 3px 3px 0",
-        userSelect: "none",
-        _hover: {
-            opacity: 0.3,
-            bg: "black",
-        },
-    };
+    // const arrowStyles = {
+    //     cursor: "pointer",
+    //     pos: "absolute",
+    //     // top: "50%",
+    //     w: "10px",
+    //     h: "100%",
+    //     // mt: "-72px",
+    //     pt: '30%',
+    //     // pb: "10%",
+    //     pr: '15px',
+    //     pl: '15px',
+    //     color: "white",
+    //     fontWeight: "bold",
+    //     fontSize: "18px",
+    //     transition: "0.6s ease",
+    //     borderRadius: "0 3px 3px 0",
+    //     userSelect: "none",
+    //     _hover: {
+    //         opacity: 0.3,
+    //         bg: "black",
+    //     },
+    // };
     let icon = [{ icon: '🗝', type: 'locker' },
     { icon: '♨️', type: 'hotwater' },
     { icon: '🧺', type: 'Laundry Services (Extra)' },
@@ -240,7 +242,9 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
             startingDate.current.value = `${year}-${month}-${day}`
             endingDate.current.value = `${tyear}-${tmonth}-${tday}`
         }
-
+        // setBookedRooms([
+        //     ...JSON.parse(localStorage.getItem('bookedRooms')) || []
+        // ])
     }, [money, date])
     return (
         <div>
@@ -312,32 +316,32 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                         <Box>
                             {
                                 rooms.rooms.map((el, ind) => {
-                                    const [currentSlide, setCurrentSlide] = useState(0);
-                                    // const slidesCount = slides.length;
+                                    // const [currentSlide, setCurrentSlide] = useState(0);
+                                    // // const slidesCount = slides.length;
                                     let boolean = false
                                     let index = -1;
-                                    const prevSlide = (slidesCount) => {
-                                        setCurrentSlide((s) => (s === 0 ? slidesCount - 1 : s - 1));
-                                    };
+                                    // const prevSlide = (slidesCount) => {
+                                    //     setCurrentSlide((s) => (s === 0 ? slidesCount - 1 : s - 1));
+                                    // };
 
-                                    const nextSlide = (slidesCount) => {
-                                        setCurrentSlide((s) => (s === slidesCount - 1 ? 0 : s + 1));
-                                    };
+                                    // const nextSlide = (slidesCount) => {
+                                    //     setCurrentSlide((s) => (s === slidesCount - 1 ? 0 : s + 1));
+                                    // };
 
-                                    const setSlide = (slide) => {
-                                        setCurrentSlide(slide);
-                                    };
+                                    // const setSlide = (slide) => {
+                                    //     setCurrentSlide(slide);
+                                    // };
 
-                                    const carouselStyle = {
-                                        transition: "all .5s",
-                                        ml: `-${currentSlide * 100}%`,
-                                    };
+                                    // const carouselStyle = {
+                                    //     transition: "all .5s",
+                                    //     ml: `-${currentSlide * 100}%`,
+                                    // };
                                     return <Accordion allowToggle mt={10} mb={4} >
                                         <AccordionItem >
                                             {/* <AccordionButton p={0}> */}
                                             < Box cursor={'pointer'} boxShadow='base' borderRadius={10} key={ind} bg={'white'} >
                                                 <Flex alignItems={'center'} flexDirection={['column', 'row', 'row']}>
-                                                    <Flex
+                                                    {/* <Flex
                                                         w={['full', "320px", "320px"]}
                                                         bg="#edf3f8"
                                                         _dark={{
@@ -400,7 +404,8 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                                 ))}
                                                             </HStack>
                                                         </Flex>
-                                                    </Flex>
+                                                    </Flex> */}
+                                                    <Smallslider el={el} ind={ind} />
 
                                                     <Flex flexDirection={'column'} width={'full'} p={3} gap={1} >
                                                         <Flex width={'full'}>
@@ -531,6 +536,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                     <IconButton onClick={() => {
                                                         bookedRooms.splice(ind, 1)
                                                         setBookedRooms([...bookedRooms])
+                                                        localStorage.setItem('bookedRooms', JSON.stringify(bookedRooms))
                                                     }} size={'xs'} _hover={{ color: '#f26c4f' }} variant={'ghost'}><DeleteIcon /></IconButton>
                                                 </Flex>
                                                     <Flex>
@@ -561,14 +567,14 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                                 <>
                                                                     $
                                                                     {
-                                                                        (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                                        ' ' + (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
                                                                     }
                                                                 </> :
                                                                 <>
 
                                                                     ₹
                                                                     {
-                                                                        el.pricepernight * el.bed * totalNight
+                                                                        ' ' + el.pricepernight * el.bed * totalNight
                                                                     }
                                                                 </>
                                                         }</span>
@@ -644,6 +650,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                             </Flex>
                                         </Box>
                                         <Button onClick={() => {
+                                            localStorage.setItem('bookedRooms', JSON.stringify(bookedRooms))
                                             navigate({
                                                 pathname: '/zostelbooking',
                                                 search: `?hotelid=${hotelid}&destinationid=${destinationId}&checkin=${startingDate.current.value}&checkout=${endingDate.current.value}&currency=${money}&totalnight=${totalNight}`,
