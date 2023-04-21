@@ -405,7 +405,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                             </HStack>
                                                         </Flex>
                                                     </Flex> */}
-                                                    <Smallslider el={el} ind={ind} />
+                                                    <Smallslider el={el} ind={ind} handleSizeClick={handleSizeClick} onOpen={onOpen} setSize={setSize} />
 
                                                     <Flex flexDirection={'column'} width={'full'} p={3} gap={1} >
                                                         <Flex width={'full'}>
