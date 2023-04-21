@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
     Flex, Box, Text, Button, Heading, Input, HStack, Image, Stack, Spacer,
     Tooltip,
@@ -14,14 +14,112 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+    MenuItemOption,
+    MenuGroup,
+    MenuOptionGroup,
+    MenuDivider,
+    ButtonGroup,
+    IconButton,
+    useToast,
 } from '@chakra-ui/react';
-import { ArrowForwardIcon, ChevronDownIcon } from '@chakra-ui/icons';
+import { AddIcon, ArrowForwardIcon, ChevronDownIcon, DeleteIcon, InfoOutlineIcon, MinusIcon } from '@chakra-ui/icons';
 import { useDisclosure } from '@chakra-ui/react';
 import Hotelimages from './hotelimages';
 import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
+import { useRef } from 'react';
 
 const Availablerooms = ({ data }) => {
+    const toast = useToast()
+
+    let payble = useRef({ total: 0 })
+    let [money, setMoney] = useState('USD')
+    let [rooms, setRooms] = useState({ ...data })
+    let [totalNight, setNight] = useState(1);
+    let [bookedRooms, setBookedRooms] = useState([])
+    let increaseBed = (id, x) => {
+
+        if (x == 1) {
+            let totalBed = 0;
+            bookedRooms.map((el, ind) => {
+                totalBed += el.bed;
+            })
+            if (totalBed >= 10) {
+                toast({
+
+                    status: 'info',
+                    isClosable: true,
+                    position: 'top-right',
+                    bg: 'black',
+                    render: () => (
+                        <Box color='white' p={3} bg='black' borderRadius={10} opacity={'0.7'}>
+                            <InfoOutlineIcon />   can book max 10 units.
+                        </Box>
+                    ),
+                })
+                return;
+            }
+        }
+
+        let index = 0;
+        bookedRooms.map((ele, ide) => {
+            if (ele.id == id) {
+                index = ide;
+            }
+        })
+        let obj = {
+            ...bookedRooms[index],
+            bed: bookedRooms[index].bed + x
+        }
+        if (obj.bed == 0) {
+            bookedRooms.splice(index, 1)
+            setBookedRooms([...bookedRooms])
+            return
+        }
+        bookedRooms.splice(index, 1)
+
+        bookedRooms.push(obj)
+        setBookedRooms([...bookedRooms])
+
+
+    }
+
+    let addToBook = (el) => {
+        let totalBed = 0;
+        bookedRooms.map((el, ind) => {
+            totalBed = el.bed;
+        })
+        if (totalBed >= 10) {
+            toast({
+
+                status: 'info',
+                isClosable: true,
+                position: 'top-right',
+                bg: 'black',
+                render: () => (
+                    <Box color='white' p={3} bg='black' borderRadius={10} opacity={'0.7'}>
+                        <InfoOutlineIcon />   can book max 10 units.
+                    </Box>
+                ),
+            })
+            return;
+        }
+        let obj = {
+            id: el.id,
+            image: el.roomimages[0],
+            pricepernight: el.pricepernight,
+            type: el.type,
+            currency: money,
+            bed: 1
+        }
+        setBookedRooms([...bookedRooms, obj])
+    }
+
+
     const today = new Date()
     const tomorrow = new Date(today)
     tomorrow.setDate(tomorrow.getDate() + 1)
@@ -51,7 +149,6 @@ const Availablerooms = ({ data }) => {
     }
     let tyear = tomorrow.getFullYear()
     let [date, setDates] = useState({ start: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}`, smin: `${year}-${month}-${day}`, emin: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}` })
-    console.log(date)
     const arrowStyles = {
         cursor: "pointer",
         pos: "absolute",
@@ -97,10 +194,13 @@ const Availablerooms = ({ data }) => {
 
     const sizes = ['full']
 
-
+    useEffect(() => {
+        setBookedRooms([...bookedRooms]);
+    }, [money])
     return (
         <div>
             <Box p={4} pt={30} pb={30} bg={'#e8f0f2'} mt={4}>
+
                 <Flex gap={4} >
 
                     <Box flex='2'>
@@ -114,9 +214,35 @@ const Availablerooms = ({ data }) => {
                                 </Text>
                             </Box>
                             <Box >
-                                <Button p={0} fontWeight={'bold'} rightIcon={<ChevronDownIcon />} variant={'ghost'} color={'#f26c4f'}>
-                                    INR
-                                </Button>
+
+                                <Menu>
+                                    {/* <MenuButton  rightIcon={<ChevronDownIcon />}>
+                                        Actions
+                                    </MenuButton> */}
+                                    <MenuButton as={Button} p={0} fontWeight={'bold'} rightIcon={<ChevronDownIcon />} variant={'ghost'} color={'#f26c4f'}>
+                                        {money}
+                                    </MenuButton>
+
+
+                                    <MenuList p={3} textAlign={'left'}>
+                                        <div style={{ height: '200px', width: '250px', overflow: 'auto' }} >
+                                            <MenuItem _hover={{ bg: 'white' }} fontWeight={'bold'}>SELECTED CURRENCY</MenuItem>
+                                            <MenuItem _hover={{ bg: '#f26c4f' }} mb={2} borderRadius={10} bg={'#f26c4f'} color={'white'} fontWeight={'bold'}>{money == 'INR' ? <Text>INR : Indian Rupee</Text> : <Text>USD: US Dollar</Text>}</MenuItem>
+                                            <hr />
+                                            <MenuItem _hover={{ bg: 'white' }} fontWeight={'bold'}>OTHER CURRENCY</MenuItem>
+                                            <MenuItem onClick={() => { setMoney('INR') }}>INR: Indian Rupee</MenuItem>
+                                            <MenuItem onClick={() => { setMoney('USD') }}>USD: US Dollar</MenuItem>
+                                            <MenuItem>EUR: Euro</MenuItem>
+                                            <MenuItem>GBP: British Pound Sterling</MenuItem>
+                                            <MenuItem>AED: United Arab Emirates Dirham</MenuItem>
+                                            <MenuItem>ANG: Netherlands Antillean Guilder</MenuItem>
+                                            <MenuItem>ZAR: South African Rand</MenuItem>
+                                            <MenuItem>ZWL: Zimbabwean Dollar</MenuItem>
+                                        </div>
+                                    </MenuList>
+
+
+                                </Menu>
                             </Box>
                             <Box w={'100%'} borderRadius={10} mr={2} ml={2} boxShadow='xs'>
                                 <Flex borderRadius={10} flexDirection={['column', 'row', 'row']} bg={'white'} alignItems={'center'}>
@@ -128,10 +254,11 @@ const Availablerooms = ({ data }) => {
                         </Flex>
                         <Box>
                             {
-                                data.rooms.map((el, ind) => {
+                                rooms.rooms.map((el, ind) => {
                                     const [currentSlide, setCurrentSlide] = useState(0);
                                     // const slidesCount = slides.length;
-
+                                    let boolean = false
+                                    let index = -1;
                                     const prevSlide = (slidesCount) => {
                                         setCurrentSlide((s) => (s === 0 ? slidesCount - 1 : s - 1));
                                     };
@@ -217,38 +344,76 @@ const Availablerooms = ({ data }) => {
                                                             </HStack>
                                                         </Flex>
                                                     </Flex>
-                                                    <AccordionButton p={0}>
-                                                        <Flex flexDirection={'column'} width={'full'} p={3} gap={1} >
-                                                            <Flex width={'full'}>
-                                                                <Stack >
-                                                                    <Heading noOfLines={1} size={'sm'}>{el.type} </Heading>
-                                                                    <Text textAlign={'left'} width={'auto'} fontSize={'10px'} >👤 x {el.person}</Text>
-                                                                </Stack>
-                                                                <Spacer />
-                                                                <Stack>
-                                                                    <Heading size={'sm'}>₹ {el.pricepernight}<span style={{ fontSize: '12px', fontWeight: 'normal' }}>/night</span></Heading>
-                                                                </Stack>
 
-                                                            </Flex>
-                                                            <Box >
-                                                                <Text textAlign={'left'} fontSize={'12px'} noOfLines={1}>{el.desc}</Text>
-                                                            </Box>
-                                                            <Flex flexWrap={'wrap'} gap={3}>
-                                                                {icon.map((el, ind) => {
-                                                                    return <Tooltip key={ind} label={el.type} placement='top-end'>
-                                                                        <Text fontSize={'12px'}>{el.icon}</Text>
-                                                                    </Tooltip>
-                                                                })}
-                                                            </Flex>
-                                                            <Flex flexWrap={'wrap'} alignItems={'center'}>
-                                                                <Box fontSize={'12px'} fontWeight={'bold'} color={'#f26c4f'} variant={'outline'} colorScheme='none'>Availability calendar <AccordionIcon /></Box>
-                                                                <Spacer />
-                                                                <Button size='xs' fontSize={'12px'} boxShadow={'lg'} _hover={{ border: '1px', color: '#f26c4f', bg: 'white' }} color={'white'} bg={'#f26c4f'} variant={'solid'}>Select Bed</Button>
+                                                    <Flex flexDirection={'column'} width={'full'} p={3} gap={1} >
+                                                        <Flex width={'full'}>
+                                                            <Stack >
+                                                                <Heading noOfLines={1} size={'sm'}>{el.type} </Heading>
+                                                                <Text textAlign={'left'} width={'auto'} fontSize={'10px'} >👤 x {el.person}</Text>
+                                                            </Stack>
+                                                            <Spacer />
+                                                            <Stack>
+                                                                <Heading size={'sm'}>{
+                                                                    money == 'INR' ? <>₹ {el.pricepernight}</> : <>$ {Math.round(el.pricepernight / 82.12)}</>
+                                                                }<span style={{ fontSize: '12px', fontWeight: 'normal' }}>/night</span></Heading>
+                                                            </Stack>
 
-
-                                                            </Flex>
                                                         </Flex>
-                                                    </AccordionButton>
+                                                        <Box >
+                                                            <Text textAlign={'left'} fontSize={'12px'} noOfLines={1}>{el.desc}</Text>
+                                                        </Box>
+                                                        <Flex flexWrap={'wrap'} gap={3}>
+                                                            {icon.map((el, ind) => {
+                                                                return <Tooltip key={ind} label={el.type} placement='top-end'>
+                                                                    <Text fontSize={'12px'}>{el.icon}</Text>
+                                                                </Tooltip>
+                                                            })}
+                                                        </Flex>
+                                                        <Flex flexWrap={'wrap'} alignItems={'center'}>
+                                                            <AccordionButton w={'150px'} _hover={{ bg: 'none' }} p={0}>
+                                                                <Box fontSize={'12px'} fontWeight={'bold'} color={'#f26c4f'} variant={'outline'} colorScheme='none'>Availability calendar <AccordionIcon /></Box>
+                                                            </AccordionButton>
+                                                            <Spacer />
+                                                            {/* <ButtonGroup size='xs' isAttached variant='outline'>
+                                                                    <IconButton size='xs' onClick={() => { increaseBed(el.id, -1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<MinusIcon />} />
+                                                                    <Button size='xs'>
+                                                                        {
+                                                                            1
+                                                                        }
+                                                                    </Button>
+                                                                    <IconButton size='xs' onClick={() => { increaseBed(el.id, 1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<AddIcon />} />
+                                                                </ButtonGroup> */}
+
+                                                            {/* <Button onClick={() => { addToBook(el) }} size='xs' fontSize={'12px'} boxShadow={'lg'} _hover={{ border: '1px', color: '#f26c4f', bg: 'white' }} color={'white'} bg={'#f26c4f'} variant={'solid'}>Select Bed</Button> */}
+
+                                                            {
+                                                                bookedRooms.map((ele, ind) => {
+                                                                    if (el.id == ele.id) {
+                                                                        boolean = true;
+                                                                        index = ind;
+                                                                        return;
+                                                                    }
+                                                                })
+                                                            }
+                                                            {
+                                                                !boolean && <Button onClick={() => { addToBook(el) }} size='xs' fontSize={'12px'} boxShadow={'lg'} _hover={{ border: '1px', color: '#f26c4f', bg: 'white' }} color={'white'} bg={'#f26c4f'} variant={'solid'}>Select Bed</Button>
+                                                            }
+                                                            {
+                                                                boolean &&
+                                                                <ButtonGroup size='xs' isAttached variant='outline'>
+                                                                    <IconButton size='xs' onClick={() => { increaseBed(el.id, -1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<MinusIcon />} />
+                                                                    <Button size='xs'>
+                                                                        {
+                                                                            bookedRooms[index].bed
+                                                                        }
+                                                                    </Button>
+                                                                    <IconButton size='xs' onClick={() => { increaseBed(el.id, 1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<AddIcon />} />
+                                                                </ButtonGroup>
+                                                            }
+
+                                                        </Flex>
+                                                    </Flex>
+
                                                 </Flex>
                                                 <Modal onClose={onClose} size={size} isOpen={isOpen}>
                                                     <ModalOverlay />
@@ -265,22 +430,158 @@ const Availablerooms = ({ data }) => {
                                             {/* </AccordionButton> */}
                                             <AccordionPanel bg={'white'} height={'110px'} boxShadow={'2xl'}>
                                                 <Flex gap={2}>
-                                                    <Calendar data={el} />
+                                                    <Calendar data={el} money={money} />
                                                 </Flex>
 
                                             </AccordionPanel>
                                         </AccordionItem>
                                     </Accordion>
-
-
-
-
                                 })
                             }
                         </Box>
                     </Box>
-                    <Box flex='1' display={['none', 'none', 'flex']} >
+                    <Box flexDirection={'column'} flex='1' display={['none', 'none', 'flex']} >
                         <Heading size={'md'}>Summary</Heading>
+
+                        <Flex gap={1} fontSize={'13px'}>
+                            <Text fontWeight={'bold'} color={'black'}>{totalNight} night
+                            </Text>
+                            <Text color='gray' fontWeight='bold'>{' '}starting from </Text>
+                            <Text color='black' fontWeight='bold'>
+                                {date.start}
+                            </Text>
+
+                        </Flex>
+                        {
+                            bookedRooms.length > 0 &&
+                            <Box pt={4}>
+
+                                {
+                                    useRef.current = 0
+                                }
+                                {
+
+                                    bookedRooms.map((el, ind) => {
+                                        payble.current += el.pricepernight * el.bed * totalNight;
+                                        return <Box pb={1} pt={1}>  <Flex flexDirection={'row'} alignItems={'center'} >
+                                            <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{el.type} <span style={{ color: 'grey' }}>x {el.bed}</span></span>
+                                            <Spacer />
+                                            <IconButton onClick={() => {
+                                                bookedRooms.splice(ind, 1)
+                                                setBookedRooms([...bookedRooms])
+                                            }} size={'xs'} _hover={{ color: '#f26c4f' }} variant={'ghost'}><DeleteIcon /></IconButton>
+                                        </Flex>
+                                            <Flex>
+
+                                                <span style={{ fontSize: '13px', fontWeight: 'bolder', color: 'grey' }}>
+                                                    {
+                                                        money == "USD" ?
+                                                            <>
+                                                                $
+
+                                                                {
+                                                                    ' ' + (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                                }
+                                                                x {totalNight} night
+                                                            </> :
+                                                            <>
+
+                                                                ₹
+                                                                {
+                                                                    ' ' + el.pricepernight * el.bed * totalNight
+                                                                }
+                                                                x {totalNight} night</>
+                                                    }
+                                                </span>
+                                                <Spacer />
+                                                <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{
+                                                    money == "USD" ?
+                                                        <>
+                                                            $
+                                                            {
+                                                                (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                            }
+                                                        </> :
+                                                        <>
+
+                                                            ₹
+                                                            {
+                                                                el.pricepernight * el.bed * totalNight
+                                                            }
+                                                        </>
+                                                }</span>
+                                            </Flex></Box>
+                                    })}
+                                <Box fontWeight={'bold'} fontSize={'14px'} pt={3}>
+
+                                    <Flex>
+                                        <Text>Tax</Text>
+                                        <Spacer />
+                                        <Text>
+                                            {
+                                                money == 'INR' ?
+                                                    <>
+                                                        {
+                                                            '₹ ' + Math.round((payble.current * 12) / 100)
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        {
+                                                            '$ ' + Math.round((Math.round((payble.current * 12) / 100)) / 82.14)
+                                                        }
+                                                    </>
+                                            }
+
+                                        </Text>
+                                    </Flex>
+
+                                    <Flex>
+                                        <Text>Total (tax incl.)</Text>
+                                        <Spacer />
+                                        <Text>
+                                            {
+                                                money == 'INR' ?
+                                                    <>
+                                                        {
+                                                            '₹ ' + (payble.current + (Math.round((payble.current * 12) / 100)))
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        {
+                                                            '$ ' + Math.round((payble.current + (Math.round((payble.current * 12) / 100))) / 82.14)
+                                                        }
+                                                    </>
+                                            }
+                                        </Text>
+                                    </Flex>
+                                    <Flex>
+                                        <Text>
+                                            Payable Now
+                                        </Text>
+                                        <Spacer />
+                                        <Text>
+                                            {
+                                                money == 'INR' ?
+                                                    <>
+                                                        {
+                                                            '₹ ' + Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)
+
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        {
+                                                            '$ ' + Math.round((Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)) / 82.14)
+                                                        }
+                                                    </>
+                                            }
+                                        </Text>
+                                    </Flex>
+                                </Box>
+                                <Button mt={5} width={'100%'} color={'white'} _hover={{ bg: '#f15824' }} bg={'#f15824'} variant='solid'>
+                                    Book Now
+                                </Button >
+                            </Box>
+                        }
                     </Box>
                 </Flex>
 
