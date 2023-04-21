@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
     Flex, Box, Text, Button, Heading, Input, HStack, Image, Stack, Spacer,
     Tooltip,
@@ -24,20 +24,47 @@ import {
     MenuDivider,
     ButtonGroup,
     IconButton,
+    useToast,
 } from '@chakra-ui/react';
-import { AddIcon, ArrowForwardIcon, ChevronDownIcon, MinusIcon } from '@chakra-ui/icons';
+import { AddIcon, ArrowForwardIcon, ChevronDownIcon, DeleteIcon, InfoOutlineIcon, MinusIcon } from '@chakra-ui/icons';
 import { useDisclosure } from '@chakra-ui/react';
 import Hotelimages from './hotelimages';
 import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
+import { useRef } from 'react';
 
 const Availablerooms = ({ data }) => {
+    const toast = useToast()
 
+    let payble = useRef({ total: 0 })
     let [money, setMoney] = useState('USD')
     let [rooms, setRooms] = useState({ ...data })
     let [totalNight, setNight] = useState(1);
     let [bookedRooms, setBookedRooms] = useState([])
     let increaseBed = (id, x) => {
+
+        if (x == 1) {
+            let totalBed = 0;
+            bookedRooms.map((el, ind) => {
+                totalBed += el.bed;
+            })
+            if (totalBed >= 10) {
+                toast({
+
+                    status: 'info',
+                    isClosable: true,
+                    position: 'top-right',
+                    bg: 'black',
+                    render: () => (
+                        <Box color='white' p={3} bg='black' borderRadius={10} opacity={'0.7'}>
+                            <InfoOutlineIcon />   can book max 10 units.
+                        </Box>
+                    ),
+                })
+                return;
+            }
+        }
+
         let index = 0;
         bookedRooms.map((ele, ide) => {
             if (ele.id == id) {
@@ -51,11 +78,9 @@ const Availablerooms = ({ data }) => {
         if (obj.bed == 0) {
             bookedRooms.splice(index, 1)
             setBookedRooms([...bookedRooms])
-            console.log(bookedRooms)
             return
         }
         bookedRooms.splice(index, 1)
-        console.log(bookedRooms)
 
         bookedRooms.push(obj)
         setBookedRooms([...bookedRooms])
@@ -64,19 +89,34 @@ const Availablerooms = ({ data }) => {
     }
 
     let addToBook = (el) => {
+        let totalBed = 0;
+        bookedRooms.map((el, ind) => {
+            totalBed = el.bed;
+        })
+        if (totalBed >= 10) {
+            toast({
 
-
+                status: 'info',
+                isClosable: true,
+                position: 'top-right',
+                bg: 'black',
+                render: () => (
+                    <Box color='white' p={3} bg='black' borderRadius={10} opacity={'0.7'}>
+                        <InfoOutlineIcon />   can book max 10 units.
+                    </Box>
+                ),
+            })
+            return;
+        }
         let obj = {
             id: el.id,
             image: el.roomimages[0],
             pricepernight: el.pricepernight,
-            totalNight: totalNight,
             type: el.type,
             currency: money,
             bed: 1
         }
         setBookedRooms([...bookedRooms, obj])
-        console.log(bookedRooms)
     }
 
 
@@ -109,7 +149,6 @@ const Availablerooms = ({ data }) => {
     }
     let tyear = tomorrow.getFullYear()
     let [date, setDates] = useState({ start: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}`, smin: `${year}-${month}-${day}`, emin: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}` })
-    console.log(date)
     const arrowStyles = {
         cursor: "pointer",
         pos: "absolute",
@@ -155,10 +194,13 @@ const Availablerooms = ({ data }) => {
 
     const sizes = ['full']
 
-
+    useEffect(() => {
+        setBookedRooms([...bookedRooms]);
+    }, [money])
     return (
         <div>
             <Box p={4} pt={30} pb={30} bg={'#e8f0f2'} mt={4}>
+
                 <Flex gap={4} >
 
                     <Box flex='2'>
@@ -216,6 +258,7 @@ const Availablerooms = ({ data }) => {
                                     const [currentSlide, setCurrentSlide] = useState(0);
                                     // const slidesCount = slides.length;
                                     let boolean = false
+                                    let index = -1;
                                     const prevSlide = (slidesCount) => {
                                         setCurrentSlide((s) => (s === 0 ? slidesCount - 1 : s - 1));
                                     };
@@ -331,20 +374,7 @@ const Availablerooms = ({ data }) => {
                                                                 <Box fontSize={'12px'} fontWeight={'bold'} color={'#f26c4f'} variant={'outline'} colorScheme='none'>Availability calendar <AccordionIcon /></Box>
                                                             </AccordionButton>
                                                             <Spacer />
-
-                                                            {
-
-                                                                bookedRooms.map((ele, ide) => {
-                                                                    let x = false;
-                                                                    if (ele.id != el.id) {
-                                                                        boolean = false
-                                                                    } else {
-                                                                        boolean = true;
-                                                                    }
-                                                                })
-                                                            }
-                                                            {
-                                                                boolean ? <ButtonGroup size='xs' isAttached variant='outline'>
+                                                            {/* <ButtonGroup size='xs' isAttached variant='outline'>
                                                                     <IconButton size='xs' onClick={() => { increaseBed(el.id, -1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<MinusIcon />} />
                                                                     <Button size='xs'>
                                                                         {
@@ -352,11 +382,34 @@ const Availablerooms = ({ data }) => {
                                                                         }
                                                                     </Button>
                                                                     <IconButton size='xs' onClick={() => { increaseBed(el.id, 1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<AddIcon />} />
-                                                                </ButtonGroup>
-                                                                    :
-                                                                    <Button onClick={() => { addToBook(el) }} size='xs' fontSize={'12px'} boxShadow={'lg'} _hover={{ border: '1px', color: '#f26c4f', bg: 'white' }} color={'white'} bg={'#f26c4f'} variant={'solid'}>Select Bed</Button>
-                                                            }
+                                                                </ButtonGroup> */}
 
+                                                            {/* <Button onClick={() => { addToBook(el) }} size='xs' fontSize={'12px'} boxShadow={'lg'} _hover={{ border: '1px', color: '#f26c4f', bg: 'white' }} color={'white'} bg={'#f26c4f'} variant={'solid'}>Select Bed</Button> */}
+
+                                                            {
+                                                                bookedRooms.map((ele, ind) => {
+                                                                    if (el.id == ele.id) {
+                                                                        boolean = true;
+                                                                        index = ind;
+                                                                        return;
+                                                                    }
+                                                                })
+                                                            }
+                                                            {
+                                                                !boolean && <Button onClick={() => { addToBook(el) }} size='xs' fontSize={'12px'} boxShadow={'lg'} _hover={{ border: '1px', color: '#f26c4f', bg: 'white' }} color={'white'} bg={'#f26c4f'} variant={'solid'}>Select Bed</Button>
+                                                            }
+                                                            {
+                                                                boolean &&
+                                                                <ButtonGroup size='xs' isAttached variant='outline'>
+                                                                    <IconButton size='xs' onClick={() => { increaseBed(el.id, -1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<MinusIcon />} />
+                                                                    <Button size='xs'>
+                                                                        {
+                                                                            bookedRooms[index].bed
+                                                                        }
+                                                                    </Button>
+                                                                    <IconButton size='xs' onClick={() => { increaseBed(el.id, 1) }} _hover={{ bg: '#f26c4f' }} color='white' bg='#f26c4f' aria-label='Add to friends' icon={<AddIcon />} />
+                                                                </ButtonGroup>
+                                                            }
 
                                                         </Flex>
                                                     </Flex>
@@ -383,10 +436,6 @@ const Availablerooms = ({ data }) => {
                                             </AccordionPanel>
                                         </AccordionItem>
                                     </Accordion>
-
-
-
-
                                 })
                             }
                         </Box>
@@ -403,6 +452,136 @@ const Availablerooms = ({ data }) => {
                             </Text>
 
                         </Flex>
+                        {
+                            bookedRooms.length > 0 &&
+                            <Box pt={4}>
+
+                                {
+                                    useRef.current = 0
+                                }
+                                {
+
+                                    bookedRooms.map((el, ind) => {
+                                        payble.current += el.pricepernight * el.bed * totalNight;
+                                        return <Box pb={1} pt={1}>  <Flex flexDirection={'row'} alignItems={'center'} >
+                                            <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{el.type} <span style={{ color: 'grey' }}>x {el.bed}</span></span>
+                                            <Spacer />
+                                            <IconButton onClick={() => {
+                                                bookedRooms.splice(ind, 1)
+                                                setBookedRooms([...bookedRooms])
+                                            }} size={'xs'} _hover={{ color: '#f26c4f' }} variant={'ghost'}><DeleteIcon /></IconButton>
+                                        </Flex>
+                                            <Flex>
+
+                                                <span style={{ fontSize: '13px', fontWeight: 'bolder', color: 'grey' }}>
+                                                    {
+                                                        money == "USD" ?
+                                                            <>
+                                                                $
+
+                                                                {
+                                                                    ' ' + (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                                }
+                                                                x {totalNight} night
+                                                            </> :
+                                                            <>
+
+                                                                ₹
+                                                                {
+                                                                    ' ' + el.pricepernight * el.bed * totalNight
+                                                                }
+                                                                x {totalNight} night</>
+                                                    }
+                                                </span>
+                                                <Spacer />
+                                                <span style={{ fontSize: '13px', fontWeight: 'bold' }}>{
+                                                    money == "USD" ?
+                                                        <>
+                                                            $
+                                                            {
+                                                                (el.pricepernight * el.bed * totalNight / 82.14).toFixed(2)
+                                                            }
+                                                        </> :
+                                                        <>
+
+                                                            ₹
+                                                            {
+                                                                el.pricepernight * el.bed * totalNight
+                                                            }
+                                                        </>
+                                                }</span>
+                                            </Flex></Box>
+                                    })}
+                                <Box fontWeight={'bold'} fontSize={'14px'} pt={3}>
+
+                                    <Flex>
+                                        <Text>Tax</Text>
+                                        <Spacer />
+                                        <Text>
+                                            {
+                                                money == 'INR' ?
+                                                    <>
+                                                        {
+                                                            '₹ ' + Math.round((payble.current * 12) / 100)
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        {
+                                                            '$ ' + Math.round((Math.round((payble.current * 12) / 100)) / 82.14)
+                                                        }
+                                                    </>
+                                            }
+
+                                        </Text>
+                                    </Flex>
+
+                                    <Flex>
+                                        <Text>Total (tax incl.)</Text>
+                                        <Spacer />
+                                        <Text>
+                                            {
+                                                money == 'INR' ?
+                                                    <>
+                                                        {
+                                                            '₹ ' + (payble.current + (Math.round((payble.current * 12) / 100)))
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        {
+                                                            '$ ' + Math.round((payble.current + (Math.round((payble.current * 12) / 100))) / 82.14)
+                                                        }
+                                                    </>
+                                            }
+                                        </Text>
+                                    </Flex>
+                                    <Flex>
+                                        <Text>
+                                            Payable Now
+                                        </Text>
+                                        <Spacer />
+                                        <Text>
+                                            {
+                                                money == 'INR' ?
+                                                    <>
+                                                        {
+                                                            '₹ ' + Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)
+
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        {
+                                                            '$ ' + Math.round((Math.round(((payble.current + (Math.round((payble.current * 12) / 100))) * 25) / 100)) / 82.14)
+                                                        }
+                                                    </>
+                                            }
+                                        </Text>
+                                    </Flex>
+                                </Box>
+                                <Button mt={5} width={'100%'} color={'white'} _hover={{ bg: '#f15824' }} bg={'#f15824'} variant='solid'>
+                                    Book Now
+                                </Button >
+                            </Box>
+                        }
                     </Box>
                 </Flex>
 
