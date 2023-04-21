@@ -47,7 +47,7 @@ const Hotelrooms = () => {
     const [show, setShow] = React.useState(false)
     let [dest, setDest] = useState({})
 
-
+    console.log(dest)
     const handleToggle = () => setShow(!show)
     let [data, setData] = useState()
     let { id } = useParams();
@@ -57,8 +57,10 @@ const Hotelrooms = () => {
         fetchData(id)
             .then((res) => {
                 setDest({ ...res.data })
+                document.title = `Zostel ${res.data.place}`
                 setData({ ...res.data.hotels[hotelid - 1], place: res.data.place })
             })
+
 
     }, [])
 
@@ -114,7 +116,7 @@ const Hotelrooms = () => {
                             <Amenities />
                         </Box>
                     </SimpleGrid>
-                    <Availablerooms data={data} />
+                    <Availablerooms data={data} destinationId={id} hotelid={hotelid} />
 
                     <Box>
                         <Flex flexDirection={['column', 'column', 'row']} pt={3} >

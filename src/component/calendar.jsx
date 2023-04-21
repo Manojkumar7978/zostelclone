@@ -40,7 +40,7 @@ const Calendar = ({ data, money }) => {
                                     unit != 0 ?
                                         <>
                                             {
-                                                money == 'INR' ? <>₹ {data.pricepernight}</> : <>$ {Math.round(data.pricepernight / 82.12)}</>
+                                                money == 'INR' ? <>₹ {data.pricepernight}</> : <>$ {(data.pricepernight / 82.14).toFixed(2)}</>
 
                                             }
                                         </> : <Text color={'#718096'}>x</Text>
