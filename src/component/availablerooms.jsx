@@ -268,7 +268,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                     {/* <MenuButton  rightIcon={<ChevronDownIcon />}>
                                         Actions
                                     </MenuButton> */}
-                                    <MenuButton as={Button} p={0} fontWeight={'bold'} rightIcon={<ChevronDownIcon />} variant={'ghost'} color={'#f26c4f'}>
+                                   <MenuButton as={Button} p={0} fontWeight={'bold'} rightIcon={<ChevronDownIcon />} variant={'ghost'} color={'#f26c4f'}>
                                         {money}
                                     </MenuButton>
 
@@ -490,7 +490,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                 </Modal>
                                             </Box>
                                             {/* </AccordionButton> */}
-                                            <AccordionPanel bg={'white'} height={'110px'} boxShadow={'2xl'}>
+                                           <AccordionPanel bg={'white'} height={'110px'} boxShadow={'2xl'}>
                                                 <Flex gap={2}>
                                                     <Calendar data={el} money={money} />
                                                 </Flex>
