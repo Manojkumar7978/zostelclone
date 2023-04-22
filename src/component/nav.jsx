@@ -7,10 +7,17 @@ import { Box, Flex, Link, Button, Image, Menu,
     MenuGroup,
     MenuOptionGroup,
     MenuDivider,
-    Stack
+    Stack, chakra
  } from '@chakra-ui/react';
  import { ChevronDownIcon } from "@chakra-ui/icons";
 
+const HoverMenuItem = chakra(MenuItem, {
+  baseStyle: { 
+    bg: 'black', 
+    color: 'white', 
+    _hover: { color: 'tomato' } 
+  },
+});
 
 
 const Navbar = () => {
@@ -20,10 +27,10 @@ const Navbar = () => {
         
 
   <Image
-    src='https://franchisebyte.com/wp-content/uploads/2022/09/Zostel-Franchise-Logo.png'
+    src='https://user-images.githubusercontent.com/83694840/146682423-9bed17e3-83f7-412f-b5de-a0fe01f4f9bd.png'
     alt='logo'
-    maxWidth="150%"
-    maxHeight="150%"
+    maxWidth="170%"
+    maxHeight="170%"
     mr={15}
     ml={7}
   />
@@ -39,7 +46,7 @@ const Navbar = () => {
   <MenuButton as={Button} rightIcon={<ChevronDownIcon />} colorScheme='black' size='md' variant='link' mr={8} _hover={{ color: "tomato" }}>
     Zostel
   </MenuButton>
-  <MenuList bg='black' borderColor='black'>
+  <MenuList bg={'black'} borderColor={'black'}>
   <Stack direction={["column","row"]} fontSize={'sm'} borderColor={'black'}>
   <Box w="100%" h="100%">
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Alleppy</MenuItem>
@@ -105,12 +112,33 @@ const Navbar = () => {
   <MenuButton as={Button} rightIcon={<ChevronDownIcon />} colorScheme='black' size='md' variant='link' mr={8} _hover={{ color: "tomato" }}>
     Zostel Homes
   </MenuButton>
-  <MenuList>
-    <MenuItem>Download</MenuItem>
-    <MenuItem>Create a Copy</MenuItem>
-    <MenuItem>Mark as Draft</MenuItem>
-    <MenuItem>Delete</MenuItem>
-    <MenuItem>Attend a Workshop</MenuItem>
+  <MenuList  bg={'black'} borderColor={'black'}>
+    <Stack direction={["column","row"]} fontSize={'sm'} borderColor={'black'}>
+  <Box w="100%" h="100%">
+    <HoverMenuItem>Zostel Homes Bhor</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Chamera (Chamba)</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Cheog</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Harabhag (Joginder Nagar)</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Kasar Devi</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Kibber</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Kotkhai</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Laida</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Mashobra</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Pedong</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Pushkar</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Rakchham</HoverMenuItem>
+    <HoverMenuItem>Zostel Homes Ramgarh (Nainital)</HoverMenuItem>
+    </Box>
+    <Box w="100%" h="100%">
+      <HoverMenuItem>Zostel Homes Rashil</HoverMenuItem>
+      <HoverMenuItem>Zostel Homes Shimla</HoverMenuItem>
+      <HoverMenuItem>Zostel Homes Tabo</HoverMenuItem>
+      <HoverMenuItem>Zostel Homes Theog</HoverMenuItem>
+      <HoverMenuItem>Zostel Homes Wayanad (Karapuzha)</HoverMenuItem>
+      <HoverMenuItem>Zostel Homes Wayanad (Thirunelly)</HoverMenuItem>
+      <HoverMenuItem>Zostel Homes Wayanad (Vythiri)</HoverMenuItem>
+    </Box>
+    </Stack>
   </MenuList>
 </Menu>
           
@@ -118,12 +146,15 @@ const Navbar = () => {
   <MenuButton as={Button} rightIcon={<ChevronDownIcon />} colorScheme='black' size='md' variant='link' mr={8} _hover={{ color: "tomato" }}>
     Zostel Plus
   </MenuButton>
-  <MenuList>
-    <MenuItem>Download</MenuItem>
-    <MenuItem>Create a Copy</MenuItem>
-    <MenuItem>Mark as Draft</MenuItem>
-    <MenuItem>Delete</MenuItem>
-    <MenuItem>Attend a Workshop</MenuItem>
+  <MenuList bg={'black'} borderColor={'black'}>
+    <HoverMenuItem>Zostel Plus Bir</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Kareri</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Lonavala</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Mussoorie</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Nainital (Naina Range)</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Panchgani</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Rishikesh (Mohanchatti)</HoverMenuItem>
+    <HoverMenuItem>Zostel Plus Wayanad</HoverMenuItem>
   </MenuList>
 </Menu>
           <Link href='/contact'>
@@ -136,12 +167,13 @@ const Navbar = () => {
   <MenuButton as={Button} rightIcon={<ChevronDownIcon />} colorScheme='black' size='md' variant='link' mr={8} _hover={{ color: "tomato" }}>
     Join us
   </MenuButton>
-  <MenuList>
-    <MenuItem>Download</MenuItem>
-    <MenuItem>Create a Copy</MenuItem>
-    <MenuItem>Mark as Draft</MenuItem>
-    <MenuItem>Delete</MenuItem>
-    <MenuItem>Attend a Workshop</MenuItem>
+  <MenuList bg={'black'} borderColor={'black'}>
+    <HoverMenuItem>Careers</HoverMenuItem>
+    <HoverMenuItem>Zostel Internship Program</HoverMenuItem>
+    <HoverMenuItem>Artist Collaboration Program</HoverMenuItem>
+    <HoverMenuItem>Travel Agency Partner Program</HoverMenuItem>
+    <HoverMenuItem>Tour Operator Partner Program</HoverMenuItem>
+    <HoverMenuItem>Travel, Shoot & Learn with Zostel</HoverMenuItem>
   </MenuList>
 </Menu>
           <Link href='/contact'>
