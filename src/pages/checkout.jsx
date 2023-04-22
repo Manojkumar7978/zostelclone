@@ -30,7 +30,8 @@ import {
     ButtonGroup,
     NumberInput,
     NumberInputField,
-    useToast
+    useToast,
+    Center
 
 } from '@chakra-ui/react';
 import { ArrowBackIcon, InfoOutlineIcon } from '@chakra-ui/icons';
@@ -611,6 +612,7 @@ const Checkout = () => {
                                         <NumberInput type='number' placeholder='Card Number' fontSize={'12px'} color={'gray.500'} />
 
                                     </Flex>
+
                                 </Box>
                             }
                         </Box>
