@@ -33,8 +33,15 @@ import Hotelimages from './hotelimages';
 import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
 import { useParams, useSearchParams, useNavigate } from 'react-router-dom'
-const Smallslider = ({ el, ind }) => {
+const Smallslider = ({ el, ind, handleSizeClick, onOpen, setSize }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
+    // const [size, setSize] = useState('full')
+    // const { isOpen, onOpen, onClose } = useDisclosure()
+
+    // const handleSizeClick = (newSize) => {
+    //     setSize(newSize)
+    //     onOpen()
+    // }
     // const slidesCount = slides.length;
     let boolean = false
     let index = -1;
