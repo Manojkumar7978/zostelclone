@@ -106,7 +106,7 @@ const Checkout = () => {
 
 
     return (
-        <div w={'1100px'} m={'auto'} >
+        <div w={'1150px'} m={'auto'} >
             {
                 loading ? <><Loading /></> :
                     <Box maxWidth={'1100px'} m={'auto'} mt={4} mb={2}>

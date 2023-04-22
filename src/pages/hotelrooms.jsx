@@ -71,7 +71,7 @@ const Hotelrooms = () => {
         <div >
 
             {
-                data != undefined ? <Box maxW={'1100px'} m={'auto'}>
+                data != undefined ? <Box maxW={'1150px'} m={'auto'}>
                     <Box display={['block', 'none', 'none']} bg={'black'} borderRadius={10}>
                         <ViewAllPhotos images={data.images} />
                     </Box>

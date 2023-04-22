@@ -109,7 +109,7 @@ const Destination = () => {
     return (
         <div>
             {
-                loading ? <Loading /> : <Box pt={10} maxW={'1100px'} m={'auto'}>
+                loading ? <Loading /> : <Box pt={10} maxW={'1150px'} m={'auto'}>
                     {/* <Link to={'/'}>Hii</Link> */}
                     <Heading textAlign={'center'} size={'lg'}>Explore <span style={{ color: '#f15824' }}>Destinations</span></Heading>
                     <Breadcrumb fontSize={'14px'} separator={<ChevronRightIcon color='gray.500' />}>
