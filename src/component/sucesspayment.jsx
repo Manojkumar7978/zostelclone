@@ -15,7 +15,9 @@ import {
     Text,
     Heading,
     Center
-
+    , Input,
+    PinInput, PinInputField,
+    HStack
 } from '@chakra-ui/react';
 import { InfoOutlineIcon } from '@chakra-ui/icons';
 import { useNavigate } from 'react-router-dom';
@@ -27,10 +29,14 @@ const OverlayOne = () => (
 )
 
 const Sucesspayment = ({ cardDetails, reserve, toast }) => {
+    let [finalOtp, setFinalOtp] = useState("")
     let navigate = useNavigate()
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const [processValue, setProcessValue] = useState(11)
+    const [processValue, setProcessValue] = useState(0)
     let ref = useRef()
+    let ref2 = useRef()
+    let [otpSent, setOtpSent] = useState(false)
+    let [otp, setOtp] = useState()
 
 
     const handelFinalSubmit = () => {
@@ -88,9 +94,9 @@ const Sucesspayment = ({ cardDetails, reserve, toast }) => {
             })
         } else {
             onOpen()
-            ref.current = setInterval(() => {
-                setProcessValue(prv => prv + 1)
-            }, Math.random() * (200 - 10) + 10)
+            // ref.current = setInterval(() => {
+            //     setProcessValue(prv => prv + 1)
+            // }, Math.random() * (200 - 10) + 10)
         }
     }
     if (processValue == 101) {
@@ -108,7 +114,57 @@ const Sucesspayment = ({ cardDetails, reserve, toast }) => {
                     <ModalHeader></ModalHeader>
                     {/* <ModalCloseButton /> */}
                     <ModalBody pb={6}>
-                        {processValue < 100 && <Grid mt={'200px'} alignItems={'center'}>
+                        <Flex alignItems={'center'} flexDirection={'column'}>
+                            {
+                                processValue == 0 && <Flex flexDirection={'column'} gap={10} w={'300px'} h={'400px'} alignItems={'center'} justifyContent={'center'}>
+                                    <Center mt={4}>
+                                        <Button onClick={() => {
+                                            if (otpSent == true) {
+                                                if (finalOtp == otp) {
+                                                    ref.current = setInterval(() => {
+                                                        setProcessValue(prv => prv + 1)
+                                                    }, Math.random() * (200 - 10) + 10)
+                                                } else {
+                                                    toast({
+
+                                                        status: 'info',
+                                                        isClosable: true,
+                                                        position: 'top-right',
+                                                        bg: 'black',
+                                                        render: () => (
+                                                            <Box color='white' p={3} bg='black' borderRadius={10} opacity={'0.7'}>
+                                                                <InfoOutlineIcon /> Enter Correct OTP.
+                                                            </Box>
+                                                        ),
+                                                    })
+                                                }
+                                                console.log(finalOtp)
+                                            } else {
+                                                let o = Math.round(Math.random() * (9999 - 1000) + 1000)
+                                                setOtp(o)
+                                                alert(`Your OTP is ${o}`)
+                                                setOtpSent(true)
+                                            }
+                                        }} bg={'#f15824'} color={'white'} _hover={{ bg: '#f15824' }}>{
+                                                otpSent ? 'Confirm Payment' : 'Send OTP'
+                                            }</Button>
+                                    </Center>
+                                    {
+                                        otpSent && <HStack >
+                                            <PinInput >
+                                                <PinInputField onChange={(e) => { setFinalOtp(finalOtp + e.target.value) }} ref={ref2} />
+                                                <PinInputField onChange={(e) => { setFinalOtp(finalOtp + e.target.value) }} />
+                                                <PinInputField onChange={(e) => { setFinalOtp(finalOtp + e.target.value) }} />
+                                                <PinInputField onChange={(e) => { setFinalOtp(finalOtp + e.target.value) }} />
+                                            </PinInput>
+                                        </HStack>
+
+                                        // <Input type='number' />
+                                    }
+                                </Flex>
+                            }
+                        </Flex>
+                        {processValue > 0 && processValue < 100 && <Grid mt={'200px'} alignItems={'center'}>
                             <Progress colorScheme='orange' hasStripe value={processValue} />
                             <Text textAlign={'center'} mt={4}>Please wait while we process your payment...</Text>
 
