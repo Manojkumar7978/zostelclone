@@ -93,8 +93,9 @@ let otherImage = [
 ]
 
 const Destination = () => {
-    document.title = 'Loading...'
     let [loading, setLoading] = useState(true)
+    document.title = loading ? 'Loading...' : 'Explore Destination | Zostel'
+
     let [destination, setDestination] = useState([])
     let navigate = useNavigate()
     useEffect(() => {
@@ -108,7 +109,7 @@ const Destination = () => {
     return (
         <div>
             {
-                loading ? <Loading /> : <Box maxW={'1100px'} m={'auto'}>
+                loading ? <Loading /> : <Box pt={10} maxW={'1100px'} m={'auto'}>
                     {/* <Link to={'/'}>Hii</Link> */}
                     <Heading textAlign={'center'} size={'lg'}>Explore <span style={{ color: '#f15824' }}>Destinations</span></Heading>
                     <Breadcrumb fontSize={'14px'} separator={<ChevronRightIcon color='gray.500' />}>
