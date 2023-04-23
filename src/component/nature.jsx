@@ -1,12 +1,23 @@
 import { Box, Grid, GridItem, IconButton } from "@chakra-ui/react";
 import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
-import { useState } from "react";
-
-// Fetch the data from db.json file
-const data = require("./db.json").nature;
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const NatSlider = () => {
+  const [data, setData] = useState([]);
   const [start, setStart] = useState(0);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await axios.get("http://localhost:8080/nature");
+        setData(res.data.nature);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchData();
+  }, []);
 
   const handleBack = () => {
     if (start > 0) {

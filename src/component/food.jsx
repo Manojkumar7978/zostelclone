@@ -1,12 +1,23 @@
 import { Box, Grid, GridItem, IconButton } from "@chakra-ui/react";
 import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
-import { useState } from "react";
-
-// Fetch the data from db.json file
-const data = require("./db.json").food;
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const FSlider = () => {
+  const [data, setData] = useState([]);
   const [start, setStart] = useState(0);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await axios.get("http://localhost:8080/food");
+        setData(res.data.food);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchData();
+  }, []);
 
   const handleBack = () => {
     if (start > 0) {

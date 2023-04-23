@@ -18,7 +18,7 @@ const Slider = () => {
 
   useEffect(() => {
     const fetchWhatsNewData = async () => {
-      const response = await fetch("/db.json");
+      const response = await fetch("http://localhost:8080/whatsnew");
       const data = await response.json();
       setWhatsNewData(data.whatsnew);
     };

@@ -49,12 +49,12 @@ const Navbar = () => {
   <MenuList bg={'black'} borderColor={'black'}>
   <Stack direction={["column","row"]} fontSize={'sm'} borderColor={'black'}>
   <Box w="100%" h="100%">
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Alleppy</MenuItem>
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Aurangabad</MenuItem>
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Bangalore</MenuItem>
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Banikhet (Dalhousie)</MenuItem>
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Barot (Rajgundha)</MenuItem>
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Bundi</MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/1'>Zostel Alleppy</Link></MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/2'>Zostel Aurangabad</Link></MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/3'>Zostel Bangalore</Link></MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/4'>Zostel Banikhet (Dalhousie)</Link></MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/5'>Zostel Barot (Rajgundha)</Link></MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/8'>Zostel Bundi</Link></MenuItem>
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Chitkul</MenuItem>
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Coorg (Madikeri)</MenuItem>
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Coorg (Siddapur)</MenuItem>
@@ -80,7 +80,7 @@ const Navbar = () => {
     </Box>
     <Box w="100%" h="100%">
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Manali (Old Manali)</MenuItem>
-    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Manali (Vashisht)</MenuItem>
+    <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}><Link to='/destination/9'>Zostel Manali (Vashisht)</Link></MenuItem>
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel McLeodganj</MenuItem>
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Mukteshwar</MenuItem>
     <MenuItem bg={'black'} color={'white'} _hover={{ color: "tomato" }}>Zostel Mumbai</MenuItem>
@@ -115,8 +115,8 @@ const Navbar = () => {
   <MenuList  bg={'black'} borderColor={'black'}>
     <Stack direction={["column","row"]} fontSize={'sm'} borderColor={'black'}>
   <Box w="100%" h="100%">
-    <HoverMenuItem>Zostel Homes Bhor</HoverMenuItem>
-    <HoverMenuItem>Zostel Homes Chamera (Chamba)</HoverMenuItem>
+    <HoverMenuItem><Link to='/destination/6'>Zostel Homes Bhor</Link></HoverMenuItem>
+    <HoverMenuItem><Link to='/destination/10'>Zostel Homes Chamera (Chamba)</Link></HoverMenuItem>
     <HoverMenuItem>Zostel Homes Cheog</HoverMenuItem>
     <HoverMenuItem>Zostel Homes Harabhag (Joginder Nagar)</HoverMenuItem>
     <HoverMenuItem>Zostel Homes Kasar Devi</HoverMenuItem>
@@ -147,7 +147,7 @@ const Navbar = () => {
     Zostel Plus
   </MenuButton>
   <MenuList bg={'black'} borderColor={'black'}>
-    <HoverMenuItem>Zostel Plus Bir</HoverMenuItem>
+    <HoverMenuItem><Link to='/destination/7'>Zostel Plus Bir</Link></HoverMenuItem>
     <HoverMenuItem>Zostel Plus Kareri</HoverMenuItem>
     <HoverMenuItem>Zostel Plus Lonavala</HoverMenuItem>
     <HoverMenuItem>Zostel Plus Mussoorie</HoverMenuItem>
