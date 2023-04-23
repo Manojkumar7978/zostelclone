@@ -40,7 +40,7 @@ const FSlider = () => {
               w="100%"
               h="200px"
               cursor="pointer"
-              onClick={() => window.location.href=`/details/${item.id}`}
+              onClick={() => window.location.href = `/details/${item.id}`}
             >
               <Box
                 bg="accent"
@@ -65,7 +65,7 @@ const FSlider = () => {
               w="100%"
               h="200px"
               cursor="pointer"
-              onClick={() => window.location.href=`/details/${item.id}`}
+              onClick={() => window.location.href = `/details/${item.id}`}
             >
               <Box
                 bg="accent"
