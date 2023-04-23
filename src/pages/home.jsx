@@ -128,7 +128,7 @@ const Home = () => {
 
             <Box>
             <Heading size="lg" my={10}>
-      Food<Box color="tomato" as="span">Mixtape</Box>
+      Food <Box color="tomato" as="span">Mixtape</Box>
     </Heading>
 
     <FSlider/>
@@ -136,7 +136,7 @@ const Home = () => {
 
             <Box>
             <Heading size="lg" my={10}>
-      Nature<Box color="tomato" as="span">Melodies</Box>
+      Nature <Box color="tomato" as="span">Melodies</Box>
     </Heading>
 
     <NatSlider/>
@@ -144,7 +144,7 @@ const Home = () => {
 
             <Box>
             <Heading size="lg" my={10}>
-      Offbeat<Box color="tomato" as="span">Gems</Box>
+      Offbeat <Box color="tomato" as="span">Gems</Box>
     </Heading>
 
     <OffSlider/>
