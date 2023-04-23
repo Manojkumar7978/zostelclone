@@ -1,25 +1,8 @@
 import React from 'react';
- 
-import {
-  Box, Flex, Link, Button, Image, Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-  Stack, chakra
-} from '@chakra-ui/react';
-import { ChevronDownIcon } from "@chakra-ui/icons";
 import { Box, Flex, Button, Image, Menu,
     MenuButton,
     MenuList,
     MenuItem,
-    MenuItemOption,
-    MenuGroup,
-    MenuOptionGroup,
-    MenuDivider,
     Stack, chakra
  } from '@chakra-ui/react';
  import { ChevronDownIcon } from "@chakra-ui/icons";
@@ -40,17 +23,6 @@ const Navbar = () => {
   return (
     <Box bg='white' px={4} mt={1.5} mb={1.5}>
       <Flex h={16} alignItems='center' justifyContent='space-between'>
- booking
-
-        <Image
-          src='https://user-images.githubusercontent.com/83694840/146682423-9bed17e3-83f7-412f-b5de-a0fe01f4f9bd.png'
-          alt='logo'
-          maxWidth="170%"
-          maxHeight="170%"
-          mr={15}
-          ml={7}
-        />
-
   <Image
     src='https://user-images.githubusercontent.com/83694840/146682423-9bed17e3-83f7-412f-b5de-a0fe01f4f9bd.png'
     alt='logo'
