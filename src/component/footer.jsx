@@ -4,7 +4,7 @@ import { Box, Flex, Link, Text, Image, VStack, HStack } from "@chakra-ui/react";
 const Footer = () => {
   return (
     <Box mt={10} bg={'gray.700'} w={'100%'}>
-    <Box maxWidth={'1150px'} m={'auto'} as="footer" backgroundColor={"gray.700"} py={8} paddingBottom={20}>
+    <Box maxWidth={'1150px'} m={'auto'} as="footer" backgroundColor={"gray.700"} py={8} paddingBottom={150}>
         <Flex
             // maxW="7xl"
             // mx="auto"
