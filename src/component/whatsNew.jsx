@@ -8,9 +8,10 @@ import {
   Flex,
   IconButton,
 } from "@chakra-ui/react";
-import { 
+import {
   ChevronLeftIcon,
-  ChevronRightIcon } from "@chakra-ui/icons"
+  ChevronRightIcon
+} from "@chakra-ui/icons"
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,22 +52,22 @@ const Slider = () => {
             <Box key={card.id} width="300px" borderWidth="1px" borderRadius="lg" overflow="hidden" margin="2">
               <Image src={card.image} alt={card.title} />
               <Box p="6">
-              <Heading as="h4" size="md" mb="2">{card.title}</Heading>
-            <Text fontSize="sm" mb="2">{card.date}</Text>
-            <Text fontSize="sm">{card.description}</Text>
-            <Button colorScheme="tomato" size="sm" mt="4">Book Now</Button>
-          </Box>
+                <Heading as="h4" size="md" mb="2">{card.title}</Heading>
+                <Text fontSize="sm" mb="2">{card.date}</Text>
+                <Text fontSize="sm">{card.description}</Text>
+                <Button colorScheme="tomato" size="sm" mt="4">Book Now</Button>
+              </Box>
+            </Box>
+          ))}
         </Box>
-      ))}
+        <IconButton
+          aria-label="Right Arrow"
+          icon={<ChevronRightIcon />}
+          onClick={handleRightArrowClick}
+          disabled={currentIndex + 5 >= whatsNewData.length}
+        />
+      </Flex>
     </Box>
-    <IconButton
-      aria-label="Right Arrow"
-      icon={<ChevronRightIcon />}
-      onClick={handleRightArrowClick}
-      disabled={currentIndex + 5 >= whatsNewData.length}
-    />
-  </Flex>
-</Box>
-);
+  );
 };
 export default Slider;
