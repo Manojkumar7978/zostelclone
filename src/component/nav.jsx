@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Link, Button, Image, Menu,
+import { Box, Flex, Button, Image, Menu,
     MenuButton,
     MenuList,
     MenuItem,
@@ -10,6 +10,8 @@ import { Box, Flex, Link, Button, Image, Menu,
     Stack, chakra
  } from '@chakra-ui/react';
  import { ChevronDownIcon } from "@chakra-ui/icons";
+ import { Link }from "react-router-dom";
+ import { useNavigate } from 'react-router-dom';
 
 const HoverMenuItem = chakra(MenuItem, {
   baseStyle: { 
@@ -21,6 +23,7 @@ const HoverMenuItem = chakra(MenuItem, {
 
 
 const Navbar = () => {
+  let navigate = useNavigate();
   return (
     <Box bg='white' px={4} mt={1.5} mb={1.5}>
       <Flex h={16} alignItems='center' justifyContent='space-between'>
@@ -33,6 +36,7 @@ const Navbar = () => {
     maxHeight="170%"
     mr={15}
     ml={7}
+    onClick={()=>navigate('/')}
   />
 
         <Box>
