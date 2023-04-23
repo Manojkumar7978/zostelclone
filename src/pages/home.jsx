@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Flex, Box, Text, Image, Heading } from '@chakra-ui/react';
+import { Flex, Box, Text, Image, Heading, HStack, Button, Tabs, TabList, TabPanels, Tab, TabPanel, TabIndicator, InputGroup, InputLeftElement, Icon, Input } from '@chakra-ui/react';
 import Slider from '../component/whatsNew';
 import NSlider from '../component/northernPlaylist';
 import SSlider from '../component/southernPlaylist';
@@ -7,6 +7,8 @@ import WSlider from '../component/weekend';
 import FSlider from '../component/food';
 import NatSlider from '../component/nature';
 import OffSlider from '../component/offbeat';
+import { ArrowForwardIcon } from "@chakra-ui/icons"
+import { color } from 'framer-motion';
 
 
 
@@ -70,7 +72,7 @@ const Home = () => {
                       fontSize="6xl"
                       fontWeight={700}
                       p="8px 12px"
-                      pos="absolute"
+                      pos='absolute'
                       top="15%"
                       left="50%"
                       as='b'
@@ -81,12 +83,93 @@ const Home = () => {
                     >
                       Live it. Now
                     </Text>
+                    
+                    <Tabs
+                     pos='fixed'
+                     bg={'white'}
+                     left="16%"
+                     top="50%"
+                     py={4}
+                     width="72%"
+                     height="30%"
+                     variant="unstyled"
+                  
+                     >
+                      <TabList
+                      justifyContent="space-evenly"
+                      color={'gray.600'}
+                     
+                      >
+                        <Tab  as='b' >DESTINATIONS</Tab>
+                        <Tab  as='b' >ZOSTEL</Tab>
+                        <Tab  as='b' >ZOSTEL HOMES</Tab>
+                        <Tab  as='b' >ZOSTEL PLUS</Tab>
+                      </TabList>
+                      <Box borderTop="1px solid lightgray" />
+                      <TabIndicator
+      mt="-1.5px"
+      height="2px"
+      bg="tomato"
+      borderRadius="1px"
+    />              <Flex>
+                  <Box borderBottom='1px solid gray.200' ml={6} marginRight={4}>
+                   <TabPanels
+                    marginLeft={10}
+                    mt={5}
+                   color={'gray.500'}
+                   fontSize={'xs'}
+                  >
+                        <TabPanel>
+                          <p>SELECT YOUR DESTINATION</p>
+                        </TabPanel>
+                        <TabPanel>
+                           <p>SELECT YOUR ZOSTEL</p>
+                           </TabPanel>
+                              <TabPanel>
+                           <p>SELECT YOUR ZOSTEL HOME</p>
+                             </TabPanel>
+                             <TabPanel>
+                           <p>SELECT YOUR ZOSTEL PLUS</p>
+                             </TabPanel>
+                          </TabPanels>
+                          <InputGroup  width= '105%' marginLeft={4} marginBottom={2}>
+      <InputLeftElement
+        pointerEvents='none'
+      />
+      <Input type='text' placeholder='eg.Manali, Jodhpur, Jaipur, etc.' textColor='gray.400'
+       size="sm" 
+  bg="transparent" 
+  borderBottom='1px solid gray.800'
+  borderTop='none'
+  borderLeft='none'
+  borderRight='none'
+  />
+    </InputGroup>
+    </Box>
+    <Box>
+       <Flex>
+        <Text fontSize="xs" pt={9} marginRight={5} marginLeft="80px" textColor="gray.500">CHECK IN</Text>
+        <Text fontSize="xs" pt={9} marginLeft={10} textColor="gray.500">CHECK OUT</Text>
+       </Flex>
+       <Flex borderRadius={10} flexDirection={['column', 'row', 'row']} bg={'white'} alignItems={'center'} marginLeft={5} marginTop={4} >
+                                    <Input type='date' size="sm" width="80%"
+                                     />
+                                    <Box> <ArrowForwardIcon /></Box>
+                                    <Input type='date' size="sm" width="80%" />
+                                </Flex>
+    </Box>
+    <Button width="30%" marginTop={16} marginLeft={2} bg='tomato' color='white'>Book Now</Button>
+    </Flex>
+    
+                       </Tabs>
+            
                     <Image
                       src={slide.img}
                       alt="carousel image"
                       boxSize="full"
                       backgroundSize="cover"
                     />
+                  
                   </Box>
                 ))}
               </Flex>
