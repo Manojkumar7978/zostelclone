@@ -52,7 +52,8 @@ const Home = () => {
         }, [slidesCount]);
         return (
           <Box
-            w="full"
+            maxWidth='1150px'
+            margin='auto'
             bg="#edf3f8"
             _dark={{
               bg: "#3e3e3e",
