@@ -1,106 +1,95 @@
-import { Box, Grid, GridItem, IconButton } from "@chakra-ui/react";
-import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
+import {
+  Box, Grid, GridItem, IconButton, Image,
+  Flex,
+  Heading,
+  Text,
+  Center,
+  Button
+
+} from "@chakra-ui/react";
+import {
+  ArrowBackIcon, ArrowForwardIcon, ChevronLeftIcon,
+  ChevronRightIcon
+} from "@chakra-ui/icons";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
-const NSlider = () => {
+const NSlider = ({ type }) => {
   const [data, setData] = useState([]);
   const [start, setStart] = useState(0);
+  let navigate = useNavigate()
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:8080/northplaylist");
-        setData(res.data.northplaylist);
+        const res = await axios.get(`http://localhost:8080/${type}`);
+        setData(res.data);
       } catch (error) {
-        console.log(error);
       }
     };
     fetchData();
   }, []);
 
-  const handleBack = () => {
-    if (start > 0) {
-      setStart(start - 1);
-    }
+  const handleLeftArrowClick = () => {
+    if (start != 0)
+      setStart((prevIndex) => prevIndex - 1);
   };
 
-  const handleForward = () => {
-    if (start < data.length - 5) {
-      setStart(start + 1);
-    }
+  const handleRightArrowClick = () => {
+    if (start < 5)
+      setStart((prevIndex) => prevIndex + 1);
+  };
+  const getCards = (start) => {
+    return data.slice(start, start + 5);
   };
 
   return (
-    <Box>
-      <Grid templateColumns="repeat(7, 1fr)" gap={4}>
+    <Box p={4}>
+
+      <Flex alignItems={'center'}>
         <IconButton
-          icon={<ArrowBackIcon />}
-          onClick={handleBack}
-          disabled={start === 0}
-          aria-label="Previous"
-          gridColumn="1/2"
-          alignSelf="center"
+          aria-label="Left Arrow"
+          icon={<ChevronLeftIcon />}
+          onClick={handleLeftArrowClick}
+          isDisabled={start === 0}
+          bg={'white'}
+          color={'tomato'}
+          boxShadow={'lg'}
+          fontWeight={'bold'}
+          mr={-10}
         />
-        {data.slice(start, start + 5).map((item) => (
-          <GridItem key={item.id} colSpan={1}>
-            <Box
-              bgImage={`url(${item.image})`}
-              bgSize="cover"
-              bgPosition="center"
-              w="100%"
-              h="200px"
-              cursor="pointer"
-              onClick={() => window.location.href = `/details/${item.id}`}
-            >
-              <Box
-                bg="accent"
-                color="white"
-                px={2}
-                py={1}
-                pos="absolute"
-                bottom="0"
-                w="100%"
-              >
-                {item.place}
-              </Box>
-            </Box>
-          </GridItem>
-        ))}
-        {data.slice(start + 5, start + 7).map((item) => (
-          <GridItem key={item.id} colSpan={1}>
-            <Box
-              bgImage={`url(${item.image})`}
-              bgSize="cover"
-              bgPosition="center"
-              w="100%"
-              h="200px"
-              cursor="pointer"
-              onClick={() => window.location.href = `/details/${item.id}`}
-            >
-              <Box
-                bg="accent"
-                color="white"
-                px={2}
-                py={1}
-                pos="absolute"
-                bottom="0"
-                w="100%"
-              >
-                {item.place}
-              </Box>
-            </Box>
-          </GridItem>
-        ))}
+        <Box display="flex" overflow={'auto'} width={'full'} >
+          {
+            data.length != 0 && <>
+              {getCards(start).map((card) => (
+                <Box cursor={'pointer'} onClick={() => {
+                  navigate(`/destination/${Math.floor(Math.random() * 10) + 1}`)
+                }} key={card.id} width="250px" borderWidth="1px" borderRadius="lg" margin="2" >
+                  <Box height={'170px'} overflow={'hidden'}>
+                    <Image
+                      borderRadius={'10px'}
+                      backgroundSize={'cover'}
+                      boxSize="full" src={card.image} alt={card.place} width={'100%'} />
+                  </Box>
+                  <Heading noOfLines={1} ml={2} mt={'-32px'} color={'white'} size="md" w={'150px'} >{card.place}</Heading>
+                </Box>
+              ))}
+            </>
+          }
+        </Box>
         <IconButton
-          icon={<ArrowForwardIcon />}
-          onClick={handleForward}
-          disabled={start === data.length - 5}
-          aria-label="Next"
-          gridColumn="7/8"
-          alignSelf="center"
+          aria-label="Right Arrow"
+          icon={<ChevronRightIcon />}
+          onClick={handleRightArrowClick}
+          isDisabled={start == 3}
+          bg={'white'}
+          color={'tomato'}
+          boxShadow={'lg'}
+          fontWeight={'bold'}
+          ml={-10}
         />
-      </Grid>
+      </Flex>
     </Box>
   );
 };
