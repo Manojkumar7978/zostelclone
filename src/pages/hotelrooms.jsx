@@ -49,7 +49,6 @@ const Hotelrooms = () => {
     const [show, setShow] = React.useState(false)
     let [dest, setDest] = useState({})
 
-    console.log(dest)
     const handleToggle = () => setShow(!show)
     let [data, setData] = useState()
     let { id } = useParams();

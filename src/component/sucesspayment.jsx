@@ -138,7 +138,6 @@ const Sucesspayment = ({ cardDetails, reserve, toast }) => {
                                                         ),
                                                     })
                                                 }
-                                                console.log(finalOtp)
                                             } else {
                                                 let o = Math.round(Math.random() * (9999 - 1000) + 1000)
                                                 setOtp(o)
@@ -184,6 +183,8 @@ const Sucesspayment = ({ cardDetails, reserve, toast }) => {
                                 </div>
                                 <center>
                                     <Heading size={'xl'} color={'green'} >Payment Success!</Heading>
+                                    <Heading size='md' color='tomato'> Thank your for Booking </Heading>
+
                                 </center>
                                 <Center>
                                     <Button onClick={() => {
