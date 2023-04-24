@@ -33,15 +33,15 @@ import Hotelimages from './hotelimages';
 import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
 import { useParams, useSearchParams, useNavigate } from 'react-router-dom'
-const Smallslider = ({ el, ind, handleSizeClick, onOpen, setSize }) => {
+const Smallslider = ({ el, ind }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    // const [size, setSize] = useState('full')
-    // const { isOpen, onOpen, onClose } = useDisclosure()
+    const [size, setSize] = useState('full')
+    const { isOpen, onOpen, onClose } = useDisclosure()
 
-    // const handleSizeClick = (newSize) => {
-    //     setSize(newSize)
-    //     onOpen()
-    // }
+    const handleSizeClick = (newSize) => {
+        setSize(newSize)
+        onOpen()
+    }
     // const slidesCount = slides.length;
     let boolean = false
     let index = -1;
@@ -149,6 +149,17 @@ const Smallslider = ({ el, ind, handleSizeClick, onOpen, setSize }) => {
                     </HStack>
                 </Flex>
             </Flex>
+            <Modal onClose={onClose} size={size} isOpen={isOpen}>
+                <ModalOverlay />
+                <ModalContent bg={'black'}>
+                    <ModalHeader bg={'black'}></ModalHeader>
+
+                    <ModalCloseButton color={'white'} />
+                    <ModalBody>
+                        <ViewAllPhotos images={el.roomimages} />
+                    </ModalBody>
+                </ModalContent>
+            </Modal>
         </div>
     );
 }
