@@ -32,6 +32,8 @@ import Hotelimages from '../component/hotelimages';
 import Amenities from '../component/amenities';
 import Availablerooms from '../component/availablerooms';
 import ViewAllPhotos from '../component/view_all_photos';
+import Loading from '../component/loading';
+import Latestreads from '../component/latestreads';
 
 
 let fetchData = async (id) => {
@@ -47,7 +49,6 @@ const Hotelrooms = () => {
     const [show, setShow] = React.useState(false)
     let [dest, setDest] = useState({})
 
-
     const handleToggle = () => setShow(!show)
     let [data, setData] = useState()
     let { id } = useParams();
@@ -57,8 +58,10 @@ const Hotelrooms = () => {
         fetchData(id)
             .then((res) => {
                 setDest({ ...res.data })
+                document.title = `Zostel ${res.data.place}`
                 setData({ ...res.data.hotels[hotelid - 1], place: res.data.place })
             })
+
 
     }, [])
 
@@ -67,7 +70,7 @@ const Hotelrooms = () => {
         <div >
 
             {
-                data != undefined && <Box maxW={'1100px'} m={'auto'}>
+                data != undefined ? <Box maxW={'1150px'} m={'auto'}>
                     <Box display={['block', 'none', 'none']} bg={'black'} borderRadius={10}>
                         <ViewAllPhotos images={data.images} />
                     </Box>
@@ -114,7 +117,7 @@ const Hotelrooms = () => {
                             <Amenities />
                         </Box>
                     </SimpleGrid>
-                    <Availablerooms data={data} />
+                    <Availablerooms data={data} destinationId={id} hotelid={hotelid} />
 
                     <Box>
                         <Flex flexDirection={['column', 'column', 'row']} pt={3} >
@@ -244,8 +247,11 @@ const Hotelrooms = () => {
 
                     {/* Slider1 */}
 
-
-                </Box>
+                    <Latestreads />
+                </Box> :
+                    <>
+                        <Loading />
+                    </>
             }
         </div>
 
