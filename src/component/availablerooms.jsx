@@ -34,7 +34,14 @@ import ViewAllPhotos from './view_all_photos';
 import Calendar from './calendar';
 import { useParams, useSearchParams, useNavigate } from 'react-router-dom'
 import Smallslider from './smallslider';
-
+let daydiff = (checkin, checkout) => {
+    var d1 = new Date(checkin);
+    var d2 = new Date(checkout);
+    var diff = d2.getTime() - d1.getTime();
+    var daydiff = diff / (1000 * 60 * 60 * 24);
+    // setNight(daydiff)
+    return daydiff
+}
 
 const Availablerooms = ({ data, destinationId, hotelid }) => {
 
@@ -47,8 +54,60 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
     const [flag, setFlag] = useBoolean()
     let [rooms, setRooms] = useState({ ...data })
     let [parameter, setParameter] = useSearchParams()
-    let [totalNight, setNight] = useState(1);
+    const today = new Date()
+    const tomorrow = new Date(today)
+    tomorrow.setDate(tomorrow.getDate() + 1)
+    let day = tomorrow.getDate()
+    let month = tomorrow.getMonth() + 1
+    if (month == 13) {
+        month = 1
+    }
+    if (month < 10) {
+        month = '0' + month
+    }
+    if (day < 10) {
+        day = '0' + day
+    }
+    let year = tomorrow.getFullYear()
+    tomorrow.setDate(tomorrow.getDate() + 1)
+    let tday = tomorrow.getDate()
+    let tmonth = tomorrow.getMonth() + 1
+    if (tmonth == 13) {
+        tmonth = 1
+    }
+    if (tmonth < 10) {
+        tmonth = '0' + tmonth
+    }
+    if (tday < 10) {
+        tday = '0' + tday
+    }
+    let tyear = tomorrow.getFullYear()
+
     let [bookedRooms, setBookedRooms] = useState([])
+    let [checkin, setCheckin] = useState(() => {
+        // `${year}-${month}-${day}`
+        let x = parameter.get('checkin')
+        if (x != 'null') {
+
+            return x
+        } else {
+
+            return `${year}-${month}-${day}`
+        }
+
+    })
+    let [checkout, setCheckout] = useState(() => {
+        let x = parameter.get('checkout')
+        if (x != 'null') {
+            return x
+        } else {
+            return `${tyear}-${tmonth}-${tday}`
+        }
+    })
+    let x = (daydiff(checkin, checkout))
+    let [totalNight, setNight] = useState(x);
+
+
 
     let increaseBed = (id, x) => {
 
@@ -129,57 +188,9 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
     }
 
 
-    const today = new Date()
-    const tomorrow = new Date(today)
-    tomorrow.setDate(tomorrow.getDate() + 1)
-    let day = tomorrow.getDate()
-    let month = tomorrow.getMonth() + 1
-    if (month == 13) {
-        month = 1
-    }
-    if (month < 10) {
-        month = '0' + month
-    }
-    if (day < 10) {
-        day = '0' + day
-    }
-    let year = tomorrow.getFullYear()
-    tomorrow.setDate(tomorrow.getDate() + 1)
-    let tday = tomorrow.getDate()
-    let tmonth = tomorrow.getMonth() + 1
-    if (tmonth == 13) {
-        tmonth = 1
-    }
-    if (tmonth < 10) {
-        tmonth = '0' + tmonth
-    }
-    if (tday < 10) {
-        tday = '0' + tday
-    }
-    let tyear = tomorrow.getFullYear()
-    let [date, setDates] = useState({ start: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}`, smin: `${year}-${month}-${day}`, emin: `${year}-${month}-${day}`, end: `${tyear}-${tmonth}-${tday}` })
-    // const arrowStyles = {
-    //     cursor: "pointer",
-    //     pos: "absolute",
-    //     // top: "50%",
-    //     w: "10px",
-    //     h: "100%",
-    //     // mt: "-72px",
-    //     pt: '30%',
-    //     // pb: "10%",
-    //     pr: '15px',
-    //     pl: '15px',
-    //     color: "white",
-    //     fontWeight: "bold",
-    //     fontSize: "18px",
-    //     transition: "0.6s ease",
-    //     borderRadius: "0 3px 3px 0",
-    //     userSelect: "none",
-    //     _hover: {
-    //         opacity: 0.3,
-    //         bg: "black",
-    //     },
-    // };
+
+    let [date, setDates] = useState({ start: parameter.get('checkin'), end: parameter.get('checkout'), smin: `${year}-${month}-${day}`, emin: `${year}-${month}-${day}` })
+
     let icon = [{ icon: '🗝', type: 'locker' },
     { icon: '♨️', type: 'hotwater' },
     { icon: '🧺', type: 'Laundry Services (Extra)' },
@@ -219,10 +230,9 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
             }
         };
         let boolean = true;
-        if (compareDates(date.start, date.end)) {
-            // console.log(date.start, date.end)
-            var d1 = new Date(date.start);
-            var d2 = new Date(date.end);
+        if (compareDates(checkin, checkout)) {
+            var d1 = new Date(checkin);
+            var d2 = new Date(checkout);
             var diff = d2.getTime() - d1.getTime();
             var daydiff = diff / (1000 * 60 * 60 * 24);
             setNight(daydiff)
@@ -239,13 +249,14 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                     </Box>
                 ),
             })
-            startingDate.current.value = `${year}-${month}-${day}`
-            endingDate.current.value = `${tyear}-${tmonth}-${tday}`
+            startingDate.current.value = checkin
+            endingDate.current.value = checkout
         }
         // setBookedRooms([
         //     ...JSON.parse(localStorage.getItem('bookedRooms')) || []
         // ])
-    }, [money, date])
+
+    }, [money, checkin, checkout])
     return (
         <div>
             <Box p={4} pt={30} pb={30} bg={'#e8f0f2'} mt={4}>
@@ -268,7 +279,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                     {/* <MenuButton  rightIcon={<ChevronDownIcon />}>
                                         Actions
                                     </MenuButton> */}
-                                   <MenuButton as={Button} p={0} fontWeight={'bold'} rightIcon={<ChevronDownIcon />} variant={'ghost'} color={'#f26c4f'}>
+                                    <MenuButton as={Button} p={0} fontWeight={'bold'} rightIcon={<ChevronDownIcon />} variant={'ghost'} color={'#f26c4f'}>
                                         {money}
                                     </MenuButton>
 
@@ -296,20 +307,12 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                             <Box w={'100%'} borderRadius={10} mr={2} ml={2} boxShadow='xs'>
                                 <Flex borderRadius={10} flexDirection={['column', 'row', 'row']} bg={'white'} alignItems={'center'}>
                                     <Input ref={startingDate} border={'none'} borderRadius={'5px 0 0 5px'} type='date' onChange={(e) => {
-                                        setDates({
-                                            ...date,
-                                            start: e.target.value
-
-                                        })
-                                    }} defaultValue={date.start} min={date.smin} />
+                                        setCheckin(e.target.value)
+                                    }} defaultValue={checkin} min={date.smin} />
                                     <Box> <ArrowForwardIcon /></Box>
                                     <Input ref={endingDate} border={'none'} borderRadius={'0 5px 5px 0'} onChange={(e) => {
-                                        setDates({
-                                            ...date,
-                                            end: e.target.value
-
-                                        })
-                                    }} type='date' defaultValue={date.end} min={date.emin} />
+                                        setCheckout(e.target.value)
+                                    }} type='date' defaultValue={checkout} min={date.emin} />
                                 </Flex>
                             </Box>
                         </Flex>
@@ -477,7 +480,7 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                     </Flex>
 
                                                 </Flex>
-                                                <Modal onClose={onClose} size={size} isOpen={isOpen}>
+                                                {/* <Modal onClose={onClose} size={size} isOpen={isOpen}>
                                                     <ModalOverlay />
                                                     <ModalContent bg={'black'}>
                                                         <ModalHeader bg={'black'}></ModalHeader>
@@ -487,10 +490,10 @@ const Availablerooms = ({ data, destinationId, hotelid }) => {
                                                             <ViewAllPhotos images={el.roomimages} />
                                                         </ModalBody>
                                                     </ModalContent>
-                                                </Modal>
+                                                </Modal> */}
                                             </Box>
                                             {/* </AccordionButton> */}
-                                           <AccordionPanel bg={'white'} height={'110px'} boxShadow={'2xl'}>
+                                            <AccordionPanel bg={'white'} height={'110px'} boxShadow={'2xl'}>
                                                 <Flex gap={2}>
                                                     <Calendar data={el} money={money} />
                                                 </Flex>
