@@ -43,6 +43,7 @@ import { color } from 'framer-motion';
 import Sucesspayment from '../component/sucesspayment';
 
 const OverlayOne = () => (
+
     <ModalOverlay
         bg='blackAlpha.300'
         backdropFilter='blur(10px) hue-rotate(90deg)'
@@ -107,7 +108,7 @@ const Checkout = () => {
 
 
     return (
-        <div w={'1150px'} m={'auto'} >
+        <div style={{ overflow: 'hidden' }} w={'1150px'} m={'auto'} >
             {
                 loading ? <><Loading /></> :
                     <Box maxWidth={'1100px'} m={'auto'} mt={4} mb={2}>

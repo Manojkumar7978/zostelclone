@@ -290,7 +290,7 @@ const Home = () => {
                   <Box>
 
                     <Flex borderRadius={10} flexDirection={['column', 'row', 'row']} bg={'white'} alignItems={'center'} marginLeft={5} marginTop={4} >
-                      <Input width='200px' height={10} mt={{ lg: '35px' }} defaultValue={date.checkin} ref={startingDate} onChange={(e) => { setDates({ ...date, checkin: e.target.value }) }} min={`${year}-${month}-${day}`} type='date' size="sm"
+                      <Input height={10} mt={{ lg: '35px' }} defaultValue={date.checkin} ref={startingDate} onChange={(e) => { setDates({ ...date, checkin: e.target.value }) }} min={`${year}-${month}-${day}`} type='date' size="sm"
                       />
                       <Box mt={{ lg: 10 }}> <ArrowForwardIcon /></Box>
                       <Input height={10} mt={{ lg: '35px' }} defaultValue={date.checkout} ref={endingDate} onChange={(e) => { setDates({ ...date, checkout: e.target.value }) }} min={`${tyear}-${tmonth}-${tday}`} type='date' size="sm" />
