@@ -16,6 +16,7 @@ function Search({ searchQuery, setSearQuery }) {
     /* Here's a custom control */
     let ref = useRef()
     let ref2 = useRef()
+    // let d = useRef('dsff')
 
 
 
@@ -45,9 +46,9 @@ function Search({ searchQuery, setSearQuery }) {
                 width={'100%'}
                 pl={8}
                 type='text'
-                defaultValue={searchQuery}
+                // defaultValue={d.current}
                 textColor='gray.700'
-                value={query}
+
                 onChange={handleInputChange}
                 onFocus={() => {
                     ref.current.style.display = 'initial'
