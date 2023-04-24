@@ -7,6 +7,7 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import Loading from '../component/loading';
+import Search from '../component/search';
 export { ChevronRightIcon } from '@chakra-ui/icons'
 let fetchData = async () => {
     try {
@@ -101,7 +102,6 @@ const Destination = () => {
     useEffect(() => {
         fetchData()
             .then((res) => {
-                console.log(res);
                 setDestination([...res])
                 setLoading(false)
             })
